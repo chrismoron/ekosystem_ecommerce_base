@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- ============================================ -->
+        <!-- PRODUCT TAGS                                 -->
+        <!-- ============================================ -->
+
+        <record id="tag_family" model="product.tag">
+            <field name="name">Dla rodzin</field>
+            <field name="color">1</field>
+        </record>
+
+        <record id="tag_couples" model="product.tag">
+            <field name="name">Dla par</field>
+            <field name="color">2</field>
+        </record>
+
+        <record id="tag_eco" model="product.tag">
+            <field name="name">Eko</field>
+            <field name="color">10</field>
+        </record>
+
+        <record id="tag_adventure" model="product.tag">
+            <field name="name">Przygoda</field>
+            <field name="color">3</field>
+        </record>
+
+        <record id="tag_luxury" model="product.tag">
+            <field name="name">Luksus</field>
+            <field name="color">4</field>
+        </record>
+
+        <record id="tag_cultural" model="product.tag">
+            <field name="name">Kultura</field>
+            <field name="color">5</field>
+        </record>
+
+        <record id="tag_pet_friendly" model="product.tag">
+            <field name="name">Przyjazny zwierzętom</field>
+            <field name="color">6</field>
+        </record>
+
+        <record id="tag_accessible" model="product.tag">
+            <field name="name">Dostępny dla niepełnosprawnych</field>
+            <field name="color">7</field>
+        </record>
+
+        <record id="tag_promotion" model="product.tag">
+            <field name="name">Promocja</field>
+            <field name="color">8</field>
+        </record>
+
+        <record id="tag_bestseller" model="product.tag">
+            <field name="name">Bestseller</field>
+            <field name="color">9</field>
+        </record>
+
+        <record id="tag_new" model="product.tag">
+            <field name="name">Nowość</field>
+            <field name="color">11</field>
+        </record>
+
+        <record id="tag_seasonal" model="product.tag">
+            <field name="name">Sezonowy</field>
+            <field name="color">12</field>
+        </record>
+
+        <record id="tag_halal" model="product.tag">
+            <field name="name">Halal</field>
+            <field name="color">13</field>
+        </record>
+
+        <record id="tag_vegan" model="product.tag">
+            <field name="name">Vegan</field>
+            <field name="color">14</field>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- ============================================ -->
+        <!-- PRODUCT ATTRIBUTES                           -->
+        <!-- ============================================ -->
+
+        <!-- Attribute: Duration / Czas trwania -->
+        <record id="attr_duration" model="product.attribute">
+            <field name="name">Czas trwania</field>
+            <field name="display_type">radio</field>
+            <field name="create_variant">no_variant</field>
+        </record>
+        <record id="attr_val_1h" model="product.attribute.value">
+            <field name="name">1 godzina</field>
+            <field name="attribute_id" ref="attr_duration"/>
+            <field name="sequence">1</field>
+        </record>
+        <record id="attr_val_2h" model="product.attribute.value">
+            <field name="name">2 godziny</field>
+            <field name="attribute_id" ref="attr_duration"/>
+            <field name="sequence">2</field>
+        </record>
+        <record id="attr_val_3h" model="product.attribute.value">
+            <field name="name">3 godziny</field>
+            <field name="attribute_id" ref="attr_duration"/>
+            <field name="sequence">3</field>
+        </record>
+        <record id="attr_val_half_day" model="product.attribute.value">
+            <field name="name">Pół dnia (4h)</field>
+            <field name="attribute_id" ref="attr_duration"/>
+            <field name="sequence">4</field>
+        </record>
+        <record id="attr_val_full_day" model="product.attribute.value">
+            <field name="name">Cały dzień</field>
+            <field name="attribute_id" ref="attr_duration"/>
+            <field name="sequence">5</field>
+        </record>
+        <record id="attr_val_weekend" model="product.attribute.value">
+            <field name="name">Weekend (2 noce)</field>
+            <field name="attribute_id" ref="attr_duration"/>
+            <field name="sequence">6</field>
+        </record>
+        <record id="attr_val_week" model="product.attribute.value">
+            <field name="name">Tydzień (7 nocy)</field>
+            <field name="attribute_id" ref="attr_duration"/>
+            <field name="sequence">7</field>
+        </record>
+
+        <!-- Attribute: Number of people / Liczba osób -->
+        <record id="attr_people" model="product.attribute">
+            <field name="name">Liczba osób</field>
+            <field name="display_type">radio</field>
+            <field name="create_variant">no_variant</field>
+        </record>
+        <record id="attr_val_1person" model="product.attribute.value">
+            <field name="name">1 osoba</field>
+            <field name="attribute_id" ref="attr_people"/>
+            <field name="sequence">1</field>
+        </record>
+        <record id="attr_val_2persons" model="product.attribute.value">
+            <field name="name">2 osoby</field>
+            <field name="attribute_id" ref="attr_people"/>
+            <field name="sequence">2</field>
+        </record>
+        <record id="attr_val_3_4persons" model="product.attribute.value">
+            <field name="name">3-4 osoby</field>
+            <field name="attribute_id" ref="attr_people"/>
+            <field name="sequence">3</field>
+        </record>
+        <record id="attr_val_5_8persons" model="product.attribute.value">
+            <field name="name">5-8 osób</field>
+            <field name="attribute_id" ref="attr_people"/>
+            <field name="sequence">4</field>
+        </record>
+        <record id="attr_val_group" model="product.attribute.value">
+            <field name="name">Grupa (9+ osób)</field>
+            <field name="attribute_id" ref="attr_people"/>
+            <field name="sequence">5</field>
+        </record>
+
+        <!-- Attribute: Meal plan / Wyżywienie -->
+        <record id="attr_meal" model="product.attribute">
+            <field name="name">Wyżywienie</field>
+            <field name="display_type">radio</field>
+            <field name="create_variant">no_variant</field>
+        </record>
+        <record id="attr_val_no_meal" model="product.attribute.value">
+            <field name="name">Bez wyżywienia</field>
+            <field name="attribute_id" ref="attr_meal"/>
+            <field name="sequence">1</field>
+        </record>
+        <record id="attr_val_breakfast" model="product.attribute.value">
+            <field name="name">Śniadanie</field>
+            <field name="attribute_id" ref="attr_meal"/>
+            <field name="sequence">2</field>
+        </record>
+        <record id="attr_val_half_board" model="product.attribute.value">
+            <field name="name">Śniadanie + obiadokolacja</field>
+            <field name="attribute_id" ref="attr_meal"/>
+            <field name="sequence">3</field>
+        </record>
+        <record id="attr_val_full_board" model="product.attribute.value">
+            <field name="name">Pełne wyżywienie</field>
+            <field name="attribute_id" ref="attr_meal"/>
+            <field name="sequence">4</field>
+        </record>
+        <record id="attr_val_all_inclusive" model="product.attribute.value">
+            <field name="name">All inclusive</field>
+            <field name="attribute_id" ref="attr_meal"/>
+            <field name="sequence">5</field>
+        </record>
+
+        <!-- Attribute: Standard / Standard pokoju -->
+        <record id="attr_standard" model="product.attribute">
+            <field name="name">Standard</field>
+            <field name="display_type">radio</field>
+            <field name="create_variant">no_variant</field>
+        </record>
+        <record id="attr_val_economy" model="product.attribute.value">
+            <field name="name">Economy</field>
+            <field name="attribute_id" ref="attr_standard"/>
+            <field name="sequence">1</field>
+        </record>
+        <record id="attr_val_standard" model="product.attribute.value">
+            <field name="name">Standard</field>
+            <field name="attribute_id" ref="attr_standard"/>
+            <field name="sequence">2</field>
+        </record>
+        <record id="attr_val_superior" model="product.attribute.value">
+            <field name="name">Superior</field>
+            <field name="attribute_id" ref="attr_standard"/>
+            <field name="sequence">3</field>
+        </record>
+        <record id="attr_val_deluxe" model="product.attribute.value">
+            <field name="name">Deluxe</field>
+            <field name="attribute_id" ref="attr_standard"/>
+            <field name="sequence">4</field>
+        </record>
+        <record id="attr_val_suite" model="product.attribute.value">
+            <field name="name">Suite / Apartament</field>
+            <field name="attribute_id" ref="attr_standard"/>
+            <field name="sequence">5</field>
+        </record>
+
+        <!-- Attribute: Difficulty / Trudność -->
+        <record id="attr_difficulty" model="product.attribute">
+            <field name="name">Poziom trudności</field>
+            <field name="display_type">radio</field>
+            <field name="create_variant">no_variant</field>
+        </record>
+        <record id="attr_val_easy" model="product.attribute.value">
+            <field name="name">Łatwy - dla każdego</field>
+            <field name="attribute_id" ref="attr_difficulty"/>
+            <field name="sequence">1</field>
+        </record>
+        <record id="attr_val_medium" model="product.attribute.value">
+            <field name="name">Średni</field>
+            <field name="attribute_id" ref="attr_difficulty"/>
+            <field name="sequence">2</field>
+        </record>
+        <record id="attr_val_hard" model="product.attribute.value">
+            <field name="name">Zaawansowany</field>
+            <field name="attribute_id" ref="attr_difficulty"/>
+            <field name="sequence">3</field>
+        </record>
+
+        <!-- Attribute: Season / Sezon -->
+        <record id="attr_season" model="product.attribute">
+            <field name="name">Sezon</field>
+            <field name="display_type">select</field>
+            <field name="create_variant">no_variant</field>
+        </record>
+        <record id="attr_val_spring" model="product.attribute.value">
+            <field name="name">Wiosna</field>
+            <field name="attribute_id" ref="attr_season"/>
+            <field name="sequence">1</field>
+        </record>
+        <record id="attr_val_summer" model="product.attribute.value">
+            <field name="name">Lato</field>
+            <field name="attribute_id" ref="attr_season"/>
+            <field name="sequence">2</field>
+        </record>
+        <record id="attr_val_autumn" model="product.attribute.value">
+            <field name="name">Jesień</field>
+            <field name="attribute_id" ref="attr_season"/>
+            <field name="sequence">3</field>
+        </record>
+        <record id="attr_val_winter" model="product.attribute.value">
+            <field name="name">Zima</field>
+            <field name="attribute_id" ref="attr_season"/>
+            <field name="sequence">4</field>
+        </record>
+        <record id="attr_val_all_year" model="product.attribute.value">
+            <field name="name">Cały rok</field>
+            <field name="attribute_id" ref="attr_season"/>
+            <field name="sequence">5</field>
+        </record>
+
+    </data>
+</odoo>

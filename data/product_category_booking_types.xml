@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+
+        <!-- date_range: Doba hotelowa — Noclegi i Pakiety -->
+        <record id="categ_accommodation" model="product.category">
+            <field name="booking_display_type">date_range</field>
+        </record>
+        <record id="categ_packages" model="product.category">
+            <field name="booking_display_type">date_range</field>
+        </record>
+
+        <!-- datetime_range: Data i czas — Aktywności i Gastronomia -->
+        <record id="categ_activities" model="product.category">
+            <field name="booking_display_type">datetime_range</field>
+        </record>
+        <record id="categ_gastronomy" model="product.category">
+            <field name="booking_display_type">datetime_range</field>
+        </record>
+
+        <!-- single_date: Pojedyncza data — Transport i Sprzęt -->
+        <record id="categ_transport" model="product.category">
+            <field name="booking_display_type">single_date</field>
+        </record>
+        <record id="categ_equipment" model="product.category">
+            <field name="booking_display_type">single_date</field>
+        </record>
+
+    </data>
+</odoo>
