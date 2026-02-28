@@ -5,6 +5,7 @@
         <!-- ================================================ -->
         <!-- PUBLIC PRODUCT CATEGORIES (website shop)          -->
         <!-- (product.public.category - shown on website)      -->
+        <!-- Single-level: no subcategories                    -->
         <!-- ================================================ -->
 
         <record id="public_categ_accommodation" model="product.public.category">
@@ -12,45 +13,9 @@
             <field name="sequence">1</field>
         </record>
 
-        <record id="public_categ_rooms" model="product.public.category">
-            <field name="name">Pokoje</field>
-            <field name="parent_id" ref="public_categ_accommodation"/>
-            <field name="sequence">1</field>
-        </record>
-
-        <record id="public_categ_houses" model="product.public.category">
-            <field name="name">Domki i apartamenty</field>
-            <field name="parent_id" ref="public_categ_accommodation"/>
-            <field name="sequence">2</field>
-        </record>
-
-        <record id="public_categ_camping" model="product.public.category">
-            <field name="name">Camping i Glamping</field>
-            <field name="parent_id" ref="public_categ_accommodation"/>
-            <field name="sequence">3</field>
-        </record>
-
         <record id="public_categ_activities" model="product.public.category">
             <field name="name">Aktywności</field>
             <field name="sequence">2</field>
-        </record>
-
-        <record id="public_categ_water_sports" model="product.public.category">
-            <field name="name">Sporty wodne</field>
-            <field name="parent_id" ref="public_categ_activities"/>
-            <field name="sequence">1</field>
-        </record>
-
-        <record id="public_categ_land_sports" model="product.public.category">
-            <field name="name">Sporty lądowe</field>
-            <field name="parent_id" ref="public_categ_activities"/>
-            <field name="sequence">2</field>
-        </record>
-
-        <record id="public_categ_tours" model="product.public.category">
-            <field name="name">Wycieczki i zwiedzanie</field>
-            <field name="parent_id" ref="public_categ_activities"/>
-            <field name="sequence">3</field>
         </record>
 
         <record id="public_categ_gastronomy" model="product.public.category">
@@ -58,33 +23,9 @@
             <field name="sequence">3</field>
         </record>
 
-        <record id="public_categ_restaurant" model="product.public.category">
-            <field name="name">Restauracja</field>
-            <field name="parent_id" ref="public_categ_gastronomy"/>
-            <field name="sequence">1</field>
-        </record>
-
-        <record id="public_categ_catering" model="product.public.category">
-            <field name="name">Catering i posiłki</field>
-            <field name="parent_id" ref="public_categ_gastronomy"/>
-            <field name="sequence">2</field>
-        </record>
-
         <record id="public_categ_transport" model="product.public.category">
             <field name="name">Transport</field>
             <field name="sequence">4</field>
-        </record>
-
-        <record id="public_categ_bikes" model="product.public.category">
-            <field name="name">Rowery</field>
-            <field name="parent_id" ref="public_categ_transport"/>
-            <field name="sequence">1</field>
-        </record>
-
-        <record id="public_categ_vehicles" model="product.public.category">
-            <field name="name">Pojazdy i transfery</field>
-            <field name="parent_id" ref="public_categ_transport"/>
-            <field name="sequence">2</field>
         </record>
 
         <record id="public_categ_equipment" model="product.public.category">
