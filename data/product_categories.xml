@@ -8,87 +8,87 @@
         <!-- ============================================ -->
 
         <record id="categ_accommodation" model="product.category">
-            <field name="name">Noclegi</field>
+            <field name="name">🏨 Noclegi</field>
         </record>
 
         <record id="categ_accommodation_rooms" model="product.category">
-            <field name="name">Pokoje</field>
+            <field name="name">🛏️ Pokoje</field>
             <field name="parent_id" ref="categ_accommodation"/>
         </record>
 
         <record id="categ_accommodation_houses" model="product.category">
-            <field name="name">Domki</field>
+            <field name="name">🏡 Domki</field>
             <field name="parent_id" ref="categ_accommodation"/>
         </record>
 
         <record id="categ_accommodation_camping" model="product.category">
-            <field name="name">Camping / Glamping</field>
+            <field name="name">⛺ Camping / Glamping</field>
             <field name="parent_id" ref="categ_accommodation"/>
         </record>
 
         <record id="categ_activities" model="product.category">
-            <field name="name">Aktywności</field>
+            <field name="name">🎯 Aktywności</field>
         </record>
 
         <record id="categ_activities_water" model="product.category">
-            <field name="name">Sporty wodne</field>
+            <field name="name">🚣 Sporty wodne</field>
             <field name="parent_id" ref="categ_activities"/>
         </record>
 
         <record id="categ_activities_land" model="product.category">
-            <field name="name">Sporty lądowe</field>
+            <field name="name">🧗 Sporty lądowe</field>
             <field name="parent_id" ref="categ_activities"/>
         </record>
 
         <record id="categ_activities_tours" model="product.category">
-            <field name="name">Wycieczki</field>
+            <field name="name">🗺️ Wycieczki</field>
             <field name="parent_id" ref="categ_activities"/>
         </record>
 
         <record id="categ_gastronomy" model="product.category">
-            <field name="name">Gastronomia</field>
+            <field name="name">🍽️ Gastronomia</field>
         </record>
 
         <record id="categ_gastronomy_restaurant" model="product.category">
-            <field name="name">Restauracja</field>
+            <field name="name">🍴 Restauracja</field>
             <field name="parent_id" ref="categ_gastronomy"/>
         </record>
 
         <record id="categ_gastronomy_catering" model="product.category">
-            <field name="name">Catering</field>
+            <field name="name">🥘 Catering</field>
             <field name="parent_id" ref="categ_gastronomy"/>
         </record>
 
         <record id="categ_transport" model="product.category">
-            <field name="name">Transport</field>
+            <field name="name">🚗 Transport</field>
         </record>
 
         <record id="categ_transport_bikes" model="product.category">
-            <field name="name">Rowery</field>
+            <field name="name">🚲 Rowery</field>
             <field name="parent_id" ref="categ_transport"/>
         </record>
 
         <record id="categ_transport_vehicles" model="product.category">
-            <field name="name">Pojazdy</field>
+            <field name="name">🚐 Pojazdy</field>
             <field name="parent_id" ref="categ_transport"/>
         </record>
 
         <record id="categ_equipment" model="product.category">
-            <field name="name">Sprzęt</field>
+            <field name="name">🎿 Sprzęt</field>
         </record>
 
         <record id="categ_equipment_water" model="product.category">
-            <field name="name">Sprzęt wodny</field>
+            <field name="name">🏄 Sprzęt wodny</field>
             <field name="parent_id" ref="categ_equipment"/>
         </record>
 
         <record id="categ_equipment_outdoor" model="product.category">
-            <field name="name">Sprzęt outdoorowy</field>
+            <field name="name">🏕️ Sprzęt outdoorowy</field>
             <field name="parent_id" ref="categ_equipment"/>
         </record>
 
         <record id="categ_packages" model="product.category">
-            <field name="name">Pakiety</field>
+            <field name="name">🎁 Pakiety</field>
         </record>
 
     </data>
