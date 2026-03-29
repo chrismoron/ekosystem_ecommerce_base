@@ -8,72 +8,72 @@
 
         <record id="tag_family" model="product.tag">
             <field name="name">Dla rodzin</field>
-            <field name="color">1</field>
+            <field name="color">#F06050</field>
         </record>
 
         <record id="tag_couples" model="product.tag">
             <field name="name">Dla par</field>
-            <field name="color">2</field>
+            <field name="color">#F4A460</field>
         </record>
 
         <record id="tag_eco" model="product.tag">
             <field name="name">Eko</field>
-            <field name="color">10</field>
+            <field name="color">#2C8397</field>
         </record>
 
         <record id="tag_adventure" model="product.tag">
             <field name="name">Przygoda</field>
-            <field name="color">3</field>
+            <field name="color">#F7CD1F</field>
         </record>
 
         <record id="tag_luxury" model="product.tag">
             <field name="name">Luksus</field>
-            <field name="color">4</field>
+            <field name="color">#6CC1ED</field>
         </record>
 
         <record id="tag_cultural" model="product.tag">
             <field name="name">Kultura</field>
-            <field name="color">5</field>
+            <field name="color">#814968</field>
         </record>
 
         <record id="tag_pet_friendly" model="product.tag">
             <field name="name">Przyjazny zwierzętom</field>
-            <field name="color">6</field>
+            <field name="color">#EB7E7F</field>
         </record>
 
         <record id="tag_accessible" model="product.tag">
             <field name="name">Dostępny dla niepełnosprawnych</field>
-            <field name="color">7</field>
+            <field name="color">#2C8397</field>
         </record>
 
         <record id="tag_promotion" model="product.tag">
             <field name="name">Promocja</field>
-            <field name="color">8</field>
+            <field name="color">#475577</field>
         </record>
 
         <record id="tag_bestseller" model="product.tag">
             <field name="name">Bestseller</field>
-            <field name="color">9</field>
+            <field name="color">#D6145F</field>
         </record>
 
         <record id="tag_new" model="product.tag">
             <field name="name">Nowość</field>
-            <field name="color">11</field>
+            <field name="color">#30C381</field>
         </record>
 
         <record id="tag_seasonal" model="product.tag">
             <field name="name">Sezonowy</field>
-            <field name="color">12</field>
+            <field name="color">#9365B8</field>
         </record>
 
         <record id="tag_halal" model="product.tag">
             <field name="name">Halal</field>
-            <field name="color">13</field>
+            <field name="color">#1ABC9C</field>
         </record>
 
         <record id="tag_vegan" model="product.tag">
             <field name="name">Vegan</field>
-            <field name="color">14</field>
+            <field name="color">#34495E</field>
         </record>
 
     </data>

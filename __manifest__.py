@@ -23,6 +23,7 @@ Dane demo (produkty, zasoby, grupy) są w osobnym module ekosystem_demo01.
     ],
     'data': [
         'data/product_categories.xml',
+        'data/product_category_booking_types.xml',
         'data/product_public_categories.xml',
         'data/product_attributes.xml',
         'data/product_tags.xml',
