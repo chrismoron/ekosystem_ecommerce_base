@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- ============================================================ -->
+        <!-- TAG GROUPS — przypisane do typów usług turystycznych          -->
+        <!-- ============================================================ -->
+
+        <!-- === 1. NOCLEGI (hotel, B&B, agroturystyka, camping) === -->
+        <record id="tag_group_accommodation" model="ekobook.tag.group">
+            <field name="name">Noclegi — lokalizacja i otoczenie</field>
+            <field name="sequence">10</field>
+            <field name="description">Tagi lokalizacyjne dla obiektów noclegowych.</field>
+            <field name="tag_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.tag_lakeside'),
+                ref('ekosystem_ecommerce_base.tag_mountains'),
+                ref('ekosystem_ecommerce_base.tag_seaside'),
+                ref('ekosystem_ecommerce_base.tag_forest'),
+                ref('ekosystem_ecommerce_base.tag_countryside'),
+                ref('ekosystem_ecommerce_base.tag_city_center'),
+                ref('ekosystem_ecommerce_base.tag_mazury'),
+                ref('ekosystem_ecommerce_base.tag_tatry'),
+                ref('ekosystem_ecommerce_base.tag_bieszczady'),
+                ref('ekosystem_ecommerce_base.tag_river'),
+            ])]"/>
+        </record>
+
+        <record id="tag_group_accommodation_amenities" model="ekobook.tag.group">
+            <field name="name">Noclegi — udogodnienia</field>
+            <field name="sequence">11</field>
+            <field name="description">Udogodnienia i wyposażenie obiektów noclegowych.</field>
+            <field name="tag_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.tag_pool'),
+                ref('ekosystem_ecommerce_base.tag_sauna'),
+                ref('ekosystem_ecommerce_base.tag_jacuzzi'),
+                ref('ekosystem_ecommerce_base.tag_ac'),
+                ref('ekosystem_ecommerce_base.tag_terrace'),
+                ref('ekosystem_ecommerce_base.tag_kitchen'),
+                ref('ekosystem_ecommerce_base.tag_parking'),
+                ref('ekosystem_ecommerce_base.tag_wifi'),
+                ref('ekosystem_ecommerce_base.tag_fireplace'),
+                ref('ekosystem_ecommerce_base.tag_bbq'),
+                ref('ekosystem_ecommerce_base.tag_pet_friendly'),
+                ref('ekosystem_ecommerce_base.tag_accessible'),
+            ])]"/>
+        </record>
+
+        <record id="tag_group_accommodation_type" model="ekobook.tag.group">
+            <field name="name">Noclegi — typ zakwaterowania</field>
+            <field name="sequence">12</field>
+            <field name="description">Rodzaj obiektu lub miejsca noclegowego.</field>
+            <field name="tag_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.tag_cottage'),
+                ref('ekosystem_ecommerce_base.tag_glamping'),
+                ref('ekosystem_ecommerce_base.tag_tent'),
+                ref('ekosystem_ecommerce_base.tag_apartment'),
+                ref('ekosystem_ecommerce_base.tag_guesthouse'),
+                ref('ekosystem_ecommerce_base.tag_farm'),
+                ref('ekosystem_ecommerce_base.tag_luxury'),
+            ])]"/>
+        </record>
+
+        <record id="tag_group_accommodation_guests" model="ekobook.tag.group">
+            <field name="name">Noclegi — dla kogo</field>
+            <field name="sequence">13</field>
+            <field name="description">Grupy docelowe gości dla obiektów noclegowych.</field>
+            <field name="tag_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.tag_family'),
+                ref('ekosystem_ecommerce_base.tag_couples'),
+                ref('ekosystem_ecommerce_base.tag_groups'),
+                ref('ekosystem_ecommerce_base.tag_seniors'),
+                ref('ekosystem_ecommerce_base.tag_kids_welcome'),
+                ref('ekosystem_ecommerce_base.tag_pet_friendly'),
+                ref('ekosystem_ecommerce_base.tag_corporate'),
+                ref('ekosystem_ecommerce_base.tag_exclusive'),
+            ])]"/>
+        </record>
+
+        <!-- === 2. GASTRONOMIA (restauracja, catering) === -->
+        <record id="tag_group_gastronomy" model="ekobook.tag.group">
+            <field name="name">Gastronomia — kuchnia i dieta</field>
+            <field name="sequence">20</field>
+            <field name="description">Rodzaj kuchni i diety w lokalach gastronomicznych.</field>
+            <field name="tag_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.tag_vegan'),
+                ref('ekosystem_ecommerce_base.tag_vegetarian'),
+                ref('ekosystem_ecommerce_base.tag_regional_cuisine'),
+                ref('ekosystem_ecommerce_base.tag_halal'),
+                ref('ekosystem_ecommerce_base.tag_own_farm'),
+                ref('ekosystem_ecommerce_base.tag_organic'),
+                ref('ekosystem_ecommerce_base.tag_local_producer'),
+            ])]"/>
+        </record>
+
+        <record id="tag_group_gastronomy_offer" model="ekobook.tag.group">
+            <field name="name">Gastronomia — oferta</field>
+            <field name="sequence">21</field>
+            <field name="description">Zakres i typ oferty gastronomicznej.</field>
+            <field name="tag_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.tag_breakfast_included'),
+                ref('ekosystem_ecommerce_base.tag_halfboard'),
+                ref('ekosystem_ecommerce_base.tag_fullboard'),
+                ref('ekosystem_ecommerce_base.tag_family'),
+                ref('ekosystem_ecommerce_base.tag_groups'),
+                ref('ekosystem_ecommerce_base.tag_corporate'),
+            ])]"/>
+        </record>
+
+        <!-- === 3. AKTYWNOŚCI I SPORT (adventure, przewodnik, instruktor) === -->
+        <record id="tag_group_activities" model="ekobook.tag.group">
+            <field name="name">Aktywności — rodzaj sportu</field>
+            <field name="sequence">30</field>
+            <field name="description">Rodzaje aktywności i sportów oferowanych klientom.</field>
+            <field name="tag_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.tag_kayak'),
+                ref('ekosystem_ecommerce_base.tag_sailing'),
+                ref('ekosystem_ecommerce_base.tag_windsurfing'),
+                ref('ekosystem_ecommerce_base.tag_skiing'),
+                ref('ekosystem_ecommerce_base.tag_hiking'),
+                ref('ekosystem_ecommerce_base.tag_climbing'),
+                ref('ekosystem_ecommerce_base.tag_horse_riding'),
+                ref('ekosystem_ecommerce_base.tag_fishing'),
+                ref('ekosystem_ecommerce_base.tag_watersports'),
+                ref('ekosystem_ecommerce_base.tag_bike'),
+                ref('ekosystem_ecommerce_base.tag_adventure'),
+            ])]"/>
+        </record>
+
+        <record id="tag_group_activities_level" model="ekobook.tag.group">
+            <field name="name">Aktywności — poziom trudności</field>
+            <field name="sequence">31</field>
+            <field name="description">Wymagany poziom sprawności lub doświadczenia.</field>
+            <field name="tag_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.tag_everyone'),
+                ref('ekosystem_ecommerce_base.tag_beginner'),
+                ref('ekosystem_ecommerce_base.tag_intermediate'),
+                ref('ekosystem_ecommerce_base.tag_advanced'),
+                ref('ekosystem_ecommerce_base.tag_guide_included'),
+                ref('ekosystem_ecommerce_base.tag_insurance_included'),
+            ])]"/>
+        </record>
+
+        <record id="tag_group_activities_location" model="ekobook.tag.group">
+            <field name="name">Aktywności — teren i sezon</field>
+            <field name="sequence">32</field>
+            <field name="description">Lokalizacja i pora roku aktywności.</field>
+            <field name="tag_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.tag_mountains'),
+                ref('ekosystem_ecommerce_base.tag_lakeside'),
+                ref('ekosystem_ecommerce_base.tag_forest'),
+                ref('ekosystem_ecommerce_base.tag_river'),
+                ref('ekosystem_ecommerce_base.tag_yearround'),
+                ref('ekosystem_ecommerce_base.tag_summer'),
+                ref('ekosystem_ecommerce_base.tag_winter'),
+                ref('ekosystem_ecommerce_base.tag_spring_autumn'),
+            ])]"/>
+        </record>
+
+        <!-- === 4. ŻEGLARSTWO I REJSY === -->
+        <record id="tag_group_sailing" model="ekobook.tag.group">
+            <field name="name">Żeglarstwo — typ i sezon</field>
+            <field name="sequence">40</field>
+            <field name="description">Tagi dla czarterów i rejsów żeglarskich.</field>
+            <field name="tag_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.tag_sailing'),
+                ref('ekosystem_ecommerce_base.tag_mazury'),
+                ref('ekosystem_ecommerce_base.tag_seaside'),
+                ref('ekosystem_ecommerce_base.tag_river'),
+                ref('ekosystem_ecommerce_base.tag_beginner'),
+                ref('ekosystem_ecommerce_base.tag_advanced'),
+                ref('ekosystem_ecommerce_base.tag_family'),
+                ref('ekosystem_ecommerce_base.tag_groups'),
+                ref('ekosystem_ecommerce_base.tag_exclusive'),
+                ref('ekosystem_ecommerce_base.tag_summer'),
+                ref('ekosystem_ecommerce_base.tag_guide_included'),
+                ref('ekosystem_ecommerce_base.tag_insurance_included'),
+            ])]"/>
+        </record>
+
+        <!-- === 5. WYPOŻYCZALNIA SPRZĘTU (rowery, sprzęt sportowy) === -->
+        <record id="tag_group_rental" model="ekobook.tag.group">
+            <field name="name">Wypożyczalnia — sprzęt i usługi</field>
+            <field name="sequence">50</field>
+            <field name="description">Tagi dla wypożyczalni sprzętu turystycznego i sportowego.</field>
+            <field name="tag_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.tag_bike'),
+                ref('ekosystem_ecommerce_base.tag_watersports'),
+                ref('ekosystem_ecommerce_base.tag_delivery'),
+                ref('ekosystem_ecommerce_base.tag_equipment_new'),
+                ref('ekosystem_ecommerce_base.tag_insurance_included'),
+                ref('ekosystem_ecommerce_base.tag_everyone'),
+                ref('ekosystem_ecommerce_base.tag_family'),
+                ref('ekosystem_ecommerce_base.tag_yearround'),
+            ])]"/>
+        </record>
+
+        <!-- === 6. SPA / WELLNESS === -->
+        <record id="tag_group_spa" model="ekobook.tag.group">
+            <field name="name">SPA i wellness — zabiegi</field>
+            <field name="sequence">60</field>
+            <field name="description">Tagi dla salonów SPA, wellness i masażu.</field>
+            <field name="tag_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.tag_massage'),
+                ref('ekosystem_ecommerce_base.tag_aromatherapy'),
+                ref('ekosystem_ecommerce_base.tag_relaxation'),
+                ref('ekosystem_ecommerce_base.tag_spa_rituals'),
+                ref('ekosystem_ecommerce_base.tag_salt_pool'),
+                ref('ekosystem_ecommerce_base.tag_sauna'),
+                ref('ekosystem_ecommerce_base.tag_jacuzzi'),
+                ref('ekosystem_ecommerce_base.tag_couples'),
+                ref('ekosystem_ecommerce_base.tag_gift_voucher'),
+                ref('ekosystem_ecommerce_base.tag_luxury'),
+            ])]"/>
+        </record>
+
+        <!-- === 7. PRZEWODNIK TURYSTYCZNY === -->
+        <record id="tag_group_tourguide" model="ekobook.tag.group">
+            <field name="name">Przewodnik turystyczny</field>
+            <field name="sequence">70</field>
+            <field name="description">Tagi dla usług przewodnickich i wycieczek z przewodnikiem.</field>
+            <field name="tag_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.tag_hiking'),
+                ref('ekosystem_ecommerce_base.tag_cultural'),
+                ref('ekosystem_ecommerce_base.tag_mountains'),
+                ref('ekosystem_ecommerce_base.tag_tatry'),
+                ref('ekosystem_ecommerce_base.tag_bieszczady'),
+                ref('ekosystem_ecommerce_base.tag_family'),
+                ref('ekosystem_ecommerce_base.tag_groups'),
+                ref('ekosystem_ecommerce_base.tag_beginner'),
+                ref('ekosystem_ecommerce_base.tag_everyone'),
+                ref('ekosystem_ecommerce_base.tag_yearround'),
+            ])]"/>
+        </record>
+
+        <!-- === 8. ROZRYWKA I ATRAKCJE === -->
+        <record id="tag_group_entertainment" model="ekobook.tag.group">
+            <field name="name">Rozrywka i atrakcje</field>
+            <field name="sequence">80</field>
+            <field name="description">Tagi dla atrakcji, rozrywki i wydarzeń turystycznych.</field>
+            <field name="tag_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.tag_family'),
+                ref('ekosystem_ecommerce_base.tag_kids_welcome'),
+                ref('ekosystem_ecommerce_base.tag_adventure'),
+                ref('ekosystem_ecommerce_base.tag_cultural'),
+                ref('ekosystem_ecommerce_base.tag_everyone'),
+                ref('ekosystem_ecommerce_base.tag_groups'),
+                ref('ekosystem_ecommerce_base.tag_corporate'),
+                ref('ekosystem_ecommerce_base.tag_gift_voucher'),
+                ref('ekosystem_ecommerce_base.tag_yearround'),
+            ])]"/>
+        </record>
+
+        <!-- === 9. OFERTY SPECJALNE (wspólne dla wszystkich) === -->
+        <record id="tag_group_special_offers" model="ekobook.tag.group">
+            <field name="name">Oferty specjalne</field>
+            <field name="sequence">90</field>
+            <field name="description">Tagi promocyjne i wyróżnienia ofert widoczne w e-commerce.</field>
+            <field name="tag_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.tag_promotion'),
+                ref('ekosystem_ecommerce_base.tag_bestseller'),
+                ref('ekosystem_ecommerce_base.tag_new'),
+                ref('ekosystem_ecommerce_base.tag_last_minute'),
+                ref('ekosystem_ecommerce_base.tag_gift_voucher'),
+                ref('ekosystem_ecommerce_base.tag_recommended'),
+                ref('ekosystem_ecommerce_base.tag_exclusive'),
+                ref('ekosystem_ecommerce_base.tag_eco'),
+            ])]"/>
+        </record>
+
+    </data>
+</odoo>

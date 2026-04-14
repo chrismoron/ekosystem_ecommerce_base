@@ -3,77 +3,369 @@
     <data noupdate="1">
 
         <!-- ============================================ -->
-        <!-- PRODUCT TAGS                                 -->
+        <!-- PRODUCT TAGS — turystyka i usługi            -->
         <!-- ============================================ -->
 
+        <!-- === DLA KOGO === -->
         <record id="tag_family" model="product.tag">
             <field name="name">Dla rodzin</field>
             <field name="color">#F06050</field>
         </record>
-
         <record id="tag_couples" model="product.tag">
             <field name="name">Dla par</field>
             <field name="color">#F4A460</field>
         </record>
+        <record id="tag_groups" model="product.tag">
+            <field name="name">Dla grup</field>
+            <field name="color">#875A7B</field>
+        </record>
+        <record id="tag_seniors" model="product.tag">
+            <field name="name">Dla seniorów</field>
+            <field name="color">#6CC1ED</field>
+        </record>
+        <record id="tag_singles" model="product.tag">
+            <field name="name">Dla singli</field>
+            <field name="color">#EB7E7F</field>
+        </record>
+        <record id="tag_kids_welcome" model="product.tag">
+            <field name="name">Dzieci mile widziane</field>
+            <field name="color">#F06050</field>
+        </record>
+        <record id="tag_corporate" model="product.tag">
+            <field name="name">Imprezy integracyjne</field>
+            <field name="color">#475577</field>
+        </record>
 
+        <!-- === LOKALIZACJA === -->
+        <record id="tag_lakeside" model="product.tag">
+            <field name="name">Nad jeziorem</field>
+            <field name="color">#2C8397</field>
+        </record>
+        <record id="tag_mountains" model="product.tag">
+            <field name="name">W górach</field>
+            <field name="color">#875A7B</field>
+        </record>
+        <record id="tag_seaside" model="product.tag">
+            <field name="name">Nad morzem</field>
+            <field name="color">#6CC1ED</field>
+        </record>
+        <record id="tag_forest" model="product.tag">
+            <field name="name">W lesie</field>
+            <field name="color">#30C381</field>
+        </record>
+        <record id="tag_countryside" model="product.tag">
+            <field name="name">Na wsi</field>
+            <field name="color">#F4A460</field>
+        </record>
+        <record id="tag_city_center" model="product.tag">
+            <field name="name">Blisko centrum</field>
+            <field name="color">#475577</field>
+        </record>
+        <record id="tag_mazury" model="product.tag">
+            <field name="name">Mazury</field>
+            <field name="color">#2C8397</field>
+        </record>
+        <record id="tag_tatry" model="product.tag">
+            <field name="name">Tatry</field>
+            <field name="color">#875A7B</field>
+        </record>
+        <record id="tag_bieszczady" model="product.tag">
+            <field name="name">Bieszczady</field>
+            <field name="color">#30C381</field>
+        </record>
+        <record id="tag_river" model="product.tag">
+            <field name="name">Nad rzeką</field>
+            <field name="color">#2C8397</field>
+        </record>
+
+        <!-- === UDOGODNIENIA NOCLEGOWE === -->
+        <record id="tag_pool" model="product.tag">
+            <field name="name">Basen</field>
+            <field name="color">#2C8397</field>
+        </record>
+        <record id="tag_sauna" model="product.tag">
+            <field name="name">Sauna</field>
+            <field name="color">#D6145F</field>
+        </record>
+        <record id="tag_jacuzzi" model="product.tag">
+            <field name="name">Jacuzzi</field>
+            <field name="color">#9365B8</field>
+        </record>
+        <record id="tag_ac" model="product.tag">
+            <field name="name">Klimatyzacja</field>
+            <field name="color">#6CC1ED</field>
+        </record>
+        <record id="tag_terrace" model="product.tag">
+            <field name="name">Taras / Balkon</field>
+            <field name="color">#F4A460</field>
+        </record>
+        <record id="tag_kitchen" model="product.tag">
+            <field name="name">Aneks kuchenny</field>
+            <field name="color">#F7CD1F</field>
+        </record>
+        <record id="tag_parking" model="product.tag">
+            <field name="name">Parking</field>
+            <field name="color">#475577</field>
+        </record>
+        <record id="tag_wifi" model="product.tag">
+            <field name="name">WiFi</field>
+            <field name="color">#30C381</field>
+        </record>
+        <record id="tag_fireplace" model="product.tag">
+            <field name="name">Kominek</field>
+            <field name="color">#F06050</field>
+        </record>
+        <record id="tag_bbq" model="product.tag">
+            <field name="name">Grill / Ognisko</field>
+            <field name="color">#F4A460</field>
+        </record>
+
+        <!-- === TYP ZAKWATEROWANIA === -->
+        <record id="tag_cottage" model="product.tag">
+            <field name="name">Domek</field>
+            <field name="color">#F4A460</field>
+        </record>
+        <record id="tag_glamping" model="product.tag">
+            <field name="name">Glamping</field>
+            <field name="color">#30C381</field>
+        </record>
+        <record id="tag_tent" model="product.tag">
+            <field name="name">Namiot</field>
+            <field name="color">#F7CD1F</field>
+        </record>
+        <record id="tag_apartment" model="product.tag">
+            <field name="name">Apartament</field>
+            <field name="color">#6CC1ED</field>
+        </record>
+        <record id="tag_guesthouse" model="product.tag">
+            <field name="name">Pensjonat</field>
+            <field name="color">#875A7B</field>
+        </record>
+        <record id="tag_farm" model="product.tag">
+            <field name="name">Gospodarstwo agroturystyczne</field>
+            <field name="color">#30C381</field>
+        </record>
+
+        <!-- === WYŻYWIENIE === -->
+        <record id="tag_breakfast_included" model="product.tag">
+            <field name="name">Śniadanie wliczone</field>
+            <field name="color">#F7CD1F</field>
+        </record>
+        <record id="tag_halfboard" model="product.tag">
+            <field name="name">Półpensjonat</field>
+            <field name="color">#F4A460</field>
+        </record>
+        <record id="tag_fullboard" model="product.tag">
+            <field name="name">Pełne wyżywienie</field>
+            <field name="color">#F06050</field>
+        </record>
+        <record id="tag_vegan" model="product.tag">
+            <field name="name">Vegan</field>
+            <field name="color">#34495E</field>
+        </record>
+        <record id="tag_vegetarian" model="product.tag">
+            <field name="name">Wegetariańskie</field>
+            <field name="color">#30C381</field>
+        </record>
+        <record id="tag_regional_cuisine" model="product.tag">
+            <field name="name">Kuchnia regionalna</field>
+            <field name="color">#F4A460</field>
+        </record>
+        <record id="tag_halal" model="product.tag">
+            <field name="name">Halal</field>
+            <field name="color">#1ABC9C</field>
+        </record>
+        <record id="tag_own_farm" model="product.tag">
+            <field name="name">Produkty z własnego gospodarstwa</field>
+            <field name="color">#30C381</field>
+        </record>
+
+        <!-- === AKTYWNOŚCI / SPORT === -->
+        <record id="tag_bike" model="product.tag">
+            <field name="name">Rowerowy</field>
+            <field name="color">#F4A460</field>
+        </record>
+        <record id="tag_kayak" model="product.tag">
+            <field name="name">Kajakarstwo</field>
+            <field name="color">#2C8397</field>
+        </record>
+        <record id="tag_sailing" model="product.tag">
+            <field name="name">Żeglarstwo</field>
+            <field name="color">#6CC1ED</field>
+        </record>
+        <record id="tag_windsurfing" model="product.tag">
+            <field name="name">Windsurfing</field>
+            <field name="color">#2C8397</field>
+        </record>
+        <record id="tag_skiing" model="product.tag">
+            <field name="name">Narty</field>
+            <field name="color">#6CC1ED</field>
+        </record>
+        <record id="tag_hiking" model="product.tag">
+            <field name="name">Piesze wycieczki</field>
+            <field name="color">#30C381</field>
+        </record>
+        <record id="tag_climbing" model="product.tag">
+            <field name="name">Wspinaczka</field>
+            <field name="color">#F06050</field>
+        </record>
+        <record id="tag_horse_riding" model="product.tag">
+            <field name="name">Jazda konna</field>
+            <field name="color">#875A7B</field>
+        </record>
+        <record id="tag_fishing" model="product.tag">
+            <field name="name">Wędkarstwo</field>
+            <field name="color">#2C8397</field>
+        </record>
+        <record id="tag_watersports" model="product.tag">
+            <field name="name">Sporty wodne</field>
+            <field name="color">#6CC1ED</field>
+        </record>
+
+        <!-- === POZIOM TRUDNOŚCI === -->
+        <record id="tag_beginner" model="product.tag">
+            <field name="name">Dla początkujących</field>
+            <field name="color">#30C381</field>
+        </record>
+        <record id="tag_intermediate" model="product.tag">
+            <field name="name">Średni poziom</field>
+            <field name="color">#F7CD1F</field>
+        </record>
+        <record id="tag_advanced" model="product.tag">
+            <field name="name">Dla zaawansowanych</field>
+            <field name="color">#F06050</field>
+        </record>
+        <record id="tag_everyone" model="product.tag">
+            <field name="name">Dla każdego</field>
+            <field name="color">#30C381</field>
+        </record>
+
+        <!-- === SEZON === -->
+        <record id="tag_seasonal" model="product.tag">
+            <field name="name">Sezonowy</field>
+            <field name="color">#9365B8</field>
+        </record>
+        <record id="tag_yearround" model="product.tag">
+            <field name="name">Cały rok</field>
+            <field name="color">#30C381</field>
+        </record>
+        <record id="tag_summer" model="product.tag">
+            <field name="name">Lato</field>
+            <field name="color">#F7CD1F</field>
+        </record>
+        <record id="tag_winter" model="product.tag">
+            <field name="name">Zima</field>
+            <field name="color">#6CC1ED</field>
+        </record>
+        <record id="tag_spring_autumn" model="product.tag">
+            <field name="name">Wiosna / Jesień</field>
+            <field name="color">#30C381</field>
+        </record>
+
+        <!-- === SPA / WELLNESS === -->
+        <record id="tag_massage" model="product.tag">
+            <field name="name">Masaż</field>
+            <field name="color">#9365B8</field>
+        </record>
+        <record id="tag_aromatherapy" model="product.tag">
+            <field name="name">Aromaterapia</field>
+            <field name="color">#D6145F</field>
+        </record>
+        <record id="tag_relaxation" model="product.tag">
+            <field name="name">Relaks</field>
+            <field name="color">#875A7B</field>
+        </record>
+        <record id="tag_spa_rituals" model="product.tag">
+            <field name="name">Rytuały SPA</field>
+            <field name="color">#D6145F</field>
+        </record>
+        <record id="tag_salt_pool" model="product.tag">
+            <field name="name">Basen solankowy</field>
+            <field name="color">#2C8397</field>
+        </record>
+
+        <!-- === JAKOŚĆ / CERTYFIKATY === -->
         <record id="tag_eco" model="product.tag">
             <field name="name">Eko</field>
             <field name="color">#2C8397</field>
         </record>
-
-        <record id="tag_adventure" model="product.tag">
-            <field name="name">Przygoda</field>
+        <record id="tag_organic" model="product.tag">
+            <field name="name">Organiczne</field>
+            <field name="color">#30C381</field>
+        </record>
+        <record id="tag_local_producer" model="product.tag">
+            <field name="name">Lokalny producent</field>
+            <field name="color">#F4A460</field>
+        </record>
+        <record id="tag_recommended" model="product.tag">
+            <field name="name">Rekomendowane</field>
             <field name="color">#F7CD1F</field>
         </record>
-
         <record id="tag_luxury" model="product.tag">
             <field name="name">Luksus</field>
             <field name="color">#6CC1ED</field>
         </record>
-
+        <record id="tag_adventure" model="product.tag">
+            <field name="name">Przygoda</field>
+            <field name="color">#F7CD1F</field>
+        </record>
         <record id="tag_cultural" model="product.tag">
             <field name="name">Kultura</field>
             <field name="color">#814968</field>
         </record>
 
+        <!-- === DOSTĘPNOŚĆ === -->
         <record id="tag_pet_friendly" model="product.tag">
             <field name="name">Przyjazny zwierzętom</field>
             <field name="color">#EB7E7F</field>
         </record>
-
         <record id="tag_accessible" model="product.tag">
             <field name="name">Dostępny dla niepełnosprawnych</field>
             <field name="color">#2C8397</field>
         </record>
 
+        <!-- === WYPOŻYCZALNIA === -->
+        <record id="tag_delivery" model="product.tag">
+            <field name="name">Dostawa na miejsce</field>
+            <field name="color">#30C381</field>
+        </record>
+        <record id="tag_equipment_new" model="product.tag">
+            <field name="name">Sprzęt nowy</field>
+            <field name="color">#F7CD1F</field>
+        </record>
+        <record id="tag_guide_included" model="product.tag">
+            <field name="name">Przewodnik w cenie</field>
+            <field name="color">#875A7B</field>
+        </record>
+        <record id="tag_insurance_included" model="product.tag">
+            <field name="name">Ubezpieczenie w cenie</field>
+            <field name="color">#6CC1ED</field>
+        </record>
+
+        <!-- === OFERTY SPECJALNE === -->
         <record id="tag_promotion" model="product.tag">
             <field name="name">Promocja</field>
             <field name="color">#475577</field>
         </record>
-
         <record id="tag_bestseller" model="product.tag">
             <field name="name">Bestseller</field>
             <field name="color">#D6145F</field>
         </record>
-
         <record id="tag_new" model="product.tag">
             <field name="name">Nowość</field>
             <field name="color">#30C381</field>
         </record>
-
-        <record id="tag_seasonal" model="product.tag">
-            <field name="name">Sezonowy</field>
+        <record id="tag_last_minute" model="product.tag">
+            <field name="name">Last minute</field>
+            <field name="color">#F06050</field>
+        </record>
+        <record id="tag_gift_voucher" model="product.tag">
+            <field name="name">Voucher prezentowy</field>
+            <field name="color">#D6145F</field>
+        </record>
+        <record id="tag_exclusive" model="product.tag">
+            <field name="name">Wynajem na wyłączność</field>
             <field name="color">#9365B8</field>
-        </record>
-
-        <record id="tag_halal" model="product.tag">
-            <field name="name">Halal</field>
-            <field name="color">#1ABC9C</field>
-        </record>
-
-        <record id="tag_vegan" model="product.tag">
-            <field name="name">Vegan</field>
-            <field name="color">#34495E</field>
         </record>
 
     </data>

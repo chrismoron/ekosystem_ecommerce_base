@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- ============================================ -->
+        <!-- ATTRIBUTE GROUPS / Grupy atrybutów          -->
+        <!--                                              -->
+        <!-- Powiązanie atrybutów z typami usług.         -->
+        <!-- Każda grupa zawiera atrybuty widoczne        -->
+        <!-- w e-commerce i backoffice dla produktów      -->
+        <!-- przypisanych do grup zasobów tego typu.      -->
+        <!-- ============================================ -->
+
+        <!-- GROUP 1: Noclegi i komfort (date_range) -->
+        <record id="attr_group_accommodation" model="ekobook.attribute.group">
+            <field name="name">Noclegi i komfort</field>
+            <field name="sequence">10</field>
+            <field name="description">Atrybuty dla noclegów: agroturystyka, hotele, B&amp;B, glamping. Obejmuje rodzaj łóżek, standard, wyżywienie i widok.</field>
+            <field name="attribute_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.attr_bed_type'),
+                ref('ekosystem_ecommerce_base.attr_standard'),
+                ref('ekosystem_ecommerce_base.attr_meal'),
+                ref('ekosystem_ecommerce_base.attr_people'),
+                ref('ekosystem_ecommerce_base.attr_view'),
+                ref('ekosystem_ecommerce_base.attr_season'),
+            ])]"/>
+        </record>
+
+        <!-- GROUP 2: Aktywności i sport (datetime_range) -->
+        <record id="attr_group_activities" model="ekobook.attribute.group">
+            <field name="name">Aktywności i sport</field>
+            <field name="sequence">20</field>
+            <field name="description">Atrybuty dla aktywności: spływy kajakowe, szkoły jazdy konnej, sporty wodne. Obejmuje czas trwania, poziom trudności i liczę osób.</field>
+            <field name="attribute_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.attr_duration'),
+                ref('ekosystem_ecommerce_base.attr_difficulty'),
+                ref('ekosystem_ecommerce_base.attr_people'),
+                ref('ekosystem_ecommerce_base.attr_season'),
+            ])]"/>
+        </record>
+
+        <!-- GROUP 3: Wypożyczalnia sprzętu (single_date) -->
+        <record id="attr_group_equipment_rental" model="ekobook.attribute.group">
+            <field name="name">Wypożyczalnia sprzętu</field>
+            <field name="sequence">30</field>
+            <field name="description">Atrybuty dla wypożyczalni: rowery, kajaki, sprzęt turystyczny, pojazdy. Obejmuje czas trwania, rozmiar i stan sprzętu.</field>
+            <field name="attribute_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.attr_duration'),
+                ref('ekosystem_ecommerce_base.attr_people'),
+                ref('ekosystem_ecommerce_base.attr_vehicle_size'),
+                ref('ekosystem_ecommerce_base.attr_equipment_condition'),
+                ref('ekosystem_ecommerce_base.attr_season'),
+            ])]"/>
+        </record>
+
+        <!-- GROUP 4: Rejsy i żeglarstwo (slot_selection) -->
+        <record id="attr_group_sailing" model="ekobook.attribute.group">
+            <field name="name">Rejsy i żeglarstwo</field>
+            <field name="sequence">40</field>
+            <field name="description">Atrybuty dla rejsów i czarterów: sloty wielodniowe, liczba osób na pokładzie, standard. Obejmuje czas trwania, pojemność i sezon.</field>
+            <field name="attribute_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.attr_duration'),
+                ref('ekosystem_ecommerce_base.attr_people'),
+                ref('ekosystem_ecommerce_base.attr_standard'),
+                ref('ekosystem_ecommerce_base.attr_season'),
+            ])]"/>
+        </record>
+
+        <!-- GROUP 5: Usługi godzinowe - wolny start (hourly_free) -->
+        <record id="attr_group_hourly_free" model="ekobook.attribute.group">
+            <field name="name">Usługi godzinowe (dowolny start)</field>
+            <field name="sequence">50</field>
+            <field name="description">Atrybuty dla usług godzinowych z dowolnym startem: SPA, masaże, instruktorzy, salony. Klient sam wybiera godzinę i czas trwania.</field>
+            <field name="attribute_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.attr_duration'),
+                ref('ekosystem_ecommerce_base.attr_people'),
+            ])]"/>
+        </record>
+
+        <!-- GROUP 6: Usługi godzinowe - stały harmonogram (hourly_fixed) -->
+        <record id="attr_group_hourly_fixed" model="ekobook.attribute.group">
+            <field name="name">Usługi godzinowe (stały harmonogram)</field>
+            <field name="sequence">60</field>
+            <field name="description">Atrybuty dla usług ze stałymi slotami: zajęcia grupowe, przewodnicy, restauracje. Klient wybiera slot z harmonogramu i czas trwania.</field>
+            <field name="attribute_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.attr_duration'),
+                ref('ekosystem_ecommerce_base.attr_people'),
+                ref('ekosystem_ecommerce_base.attr_difficulty'),
+            ])]"/>
+        </record>
+
+    </data>
+</odoo>

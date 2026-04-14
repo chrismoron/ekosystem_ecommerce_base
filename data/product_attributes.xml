@@ -198,5 +198,146 @@
             <field name="sequence">5</field>
         </record>
 
+        <!-- ============================================ -->
+        <!-- BED TYPES / Rodzaj łóżek                    -->
+        <!-- Migrated from ekobookapp-marcin-development  -->
+        <!-- ============================================ -->
+
+        <record id="attr_bed_type" model="product.attribute">
+            <field name="name">Rodzaj łóżek</field>
+            <field name="display_type">multi</field>
+            <field name="create_variant">no_variant</field>
+        </record>
+        <record id="attr_val_bed_single" model="product.attribute.value">
+            <field name="name">🛏 Pojedyncze</field>
+            <field name="attribute_id" ref="attr_bed_type"/>
+            <field name="sequence">1</field>
+        </record>
+        <record id="attr_val_bed_double" model="product.attribute.value">
+            <field name="name">🛏🛏 Podwójne</field>
+            <field name="attribute_id" ref="attr_bed_type"/>
+            <field name="sequence">2</field>
+        </record>
+        <record id="attr_val_bed_king" model="product.attribute.value">
+            <field name="name">👑 Małżeńskie (King)</field>
+            <field name="attribute_id" ref="attr_bed_type"/>
+            <field name="sequence">3</field>
+        </record>
+        <record id="attr_val_bed_triple" model="product.attribute.value">
+            <field name="name">🛏🛏🛏 Potrójne</field>
+            <field name="attribute_id" ref="attr_bed_type"/>
+            <field name="sequence">4</field>
+        </record>
+        <record id="attr_val_bed_sofa" model="product.attribute.value">
+            <field name="name">🛋 Rozkładane (sofa)</field>
+            <field name="attribute_id" ref="attr_bed_type"/>
+            <field name="sequence">5</field>
+        </record>
+        <record id="attr_val_bed_bunk" model="product.attribute.value">
+            <field name="name">🪜 Piętrowe</field>
+            <field name="attribute_id" ref="attr_bed_type"/>
+            <field name="sequence">6</field>
+        </record>
+        <record id="attr_val_bed_crib" model="product.attribute.value">
+            <field name="name">🍼 Dziecięce (łóżeczko)</field>
+            <field name="attribute_id" ref="attr_bed_type"/>
+            <field name="sequence">7</field>
+        </record>
+
+        <!-- ============================================ -->
+        <!-- VIEW / Widok                                 -->
+        <!-- ============================================ -->
+
+        <record id="attr_view" model="product.attribute">
+            <field name="name">Widok</field>
+            <field name="display_type">multi</field>
+            <field name="create_variant">no_variant</field>
+        </record>
+        <record id="attr_val_view_garden" model="product.attribute.value">
+            <field name="name">🌿 Na ogród</field>
+            <field name="attribute_id" ref="attr_view"/>
+            <field name="sequence">1</field>
+        </record>
+        <record id="attr_val_view_forest" model="product.attribute.value">
+            <field name="name">🌲 Na las</field>
+            <field name="attribute_id" ref="attr_view"/>
+            <field name="sequence">2</field>
+        </record>
+        <record id="attr_val_view_lake" model="product.attribute.value">
+            <field name="name">🏞 Na jezioro / rzekę</field>
+            <field name="attribute_id" ref="attr_view"/>
+            <field name="sequence">3</field>
+        </record>
+        <record id="attr_val_view_mountain" model="product.attribute.value">
+            <field name="name">⛰ Na góry</field>
+            <field name="attribute_id" ref="attr_view"/>
+            <field name="sequence">4</field>
+        </record>
+        <record id="attr_val_view_sea" model="product.attribute.value">
+            <field name="name">🌊 Na morze</field>
+            <field name="attribute_id" ref="attr_view"/>
+            <field name="sequence">5</field>
+        </record>
+        <record id="attr_val_view_city" model="product.attribute.value">
+            <field name="name">🏙 Na miasto</field>
+            <field name="attribute_id" ref="attr_view"/>
+            <field name="sequence">6</field>
+        </record>
+
+        <!-- ============================================ -->
+        <!-- EQUIPMENT CONDITION / Stan sprzętu          -->
+        <!-- ============================================ -->
+
+        <record id="attr_equipment_condition" model="product.attribute">
+            <field name="name">Stan sprzętu</field>
+            <field name="display_type">radio</field>
+            <field name="create_variant">no_variant</field>
+        </record>
+        <record id="attr_val_eq_new" model="product.attribute.value">
+            <field name="name">✨ Nowy (bieżący rok)</field>
+            <field name="attribute_id" ref="attr_equipment_condition"/>
+            <field name="sequence">1</field>
+        </record>
+        <record id="attr_val_eq_good" model="product.attribute.value">
+            <field name="name">👍 Dobry</field>
+            <field name="attribute_id" ref="attr_equipment_condition"/>
+            <field name="sequence">2</field>
+        </record>
+        <record id="attr_val_eq_used" model="product.attribute.value">
+            <field name="name">🔧 Używany</field>
+            <field name="attribute_id" ref="attr_equipment_condition"/>
+            <field name="sequence">3</field>
+        </record>
+
+        <!-- ============================================ -->
+        <!-- VEHICLE SIZE / Rozmiar pojazdu              -->
+        <!-- ============================================ -->
+
+        <record id="attr_vehicle_size" model="product.attribute">
+            <field name="name">Rozmiar</field>
+            <field name="display_type">radio</field>
+            <field name="create_variant">no_variant</field>
+        </record>
+        <record id="attr_val_size_xs" model="product.attribute.value">
+            <field name="name">XS / Mały</field>
+            <field name="attribute_id" ref="attr_vehicle_size"/>
+            <field name="sequence">1</field>
+        </record>
+        <record id="attr_val_size_m" model="product.attribute.value">
+            <field name="name">M / Średni</field>
+            <field name="attribute_id" ref="attr_vehicle_size"/>
+            <field name="sequence">2</field>
+        </record>
+        <record id="attr_val_size_l" model="product.attribute.value">
+            <field name="name">L / Duży</field>
+            <field name="attribute_id" ref="attr_vehicle_size"/>
+            <field name="sequence">3</field>
+        </record>
+        <record id="attr_val_size_xl" model="product.attribute.value">
+            <field name="name">XL / Bardzo duży</field>
+            <field name="attribute_id" ref="attr_vehicle_size"/>
+            <field name="sequence">4</field>
+        </record>
+
     </data>
 </odoo>
