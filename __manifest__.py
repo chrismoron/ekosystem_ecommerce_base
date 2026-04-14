@@ -29,6 +29,7 @@ Dane demo (produkty, zasoby, grupy) są w osobnym module ekosystem_demo01.
         'data/product_attribute_groups.xml',
         'data/product_tags.xml',
         'data/product_tag_groups.xml',
+        'data/product_group_category_links.xml',
     ],
     'installable': True,
     'auto_install': False,

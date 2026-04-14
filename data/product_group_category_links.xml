@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- noupdate="0" so these links apply on upgrade too -->
+    <data noupdate="0">
+
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <!-- ATTRIBUTE GROUPS → PUBLIC CATEGORIES                   -->
+        <!-- ═══════════════════════════════════════════════════════ -->
+
+        <record id="attr_group_accommodation" model="ekobook.attribute.group">
+            <field name="public_categ_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.public_categ_accommodation'),
+            ])]"/>
+        </record>
+
+        <record id="attr_group_activities" model="ekobook.attribute.group">
+            <field name="public_categ_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.public_categ_activities'),
+            ])]"/>
+        </record>
+
+        <record id="attr_group_equipment_rental" model="ekobook.attribute.group">
+            <field name="public_categ_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.public_categ_equipment'),
+            ])]"/>
+        </record>
+
+        <record id="attr_group_sailing" model="ekobook.attribute.group">
+            <field name="public_categ_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.public_categ_activities'),
+            ])]"/>
+        </record>
+
+        <record id="attr_group_hourly_free" model="ekobook.attribute.group">
+            <field name="public_categ_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.public_categ_activities'),
+                ref('ekosystem_ecommerce_base.public_categ_gastronomy'),
+            ])]"/>
+        </record>
+
+        <record id="attr_group_hourly_fixed" model="ekobook.attribute.group">
+            <field name="public_categ_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.public_categ_activities'),
+                ref('ekosystem_ecommerce_base.public_categ_transport'),
+            ])]"/>
+        </record>
+
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <!-- TAG GROUPS → PUBLIC CATEGORIES                         -->
+        <!-- ═══════════════════════════════════════════════════════ -->
+
+        <!-- Noclegi tags → Noclegi -->
+        <record id="tag_group_accommodation" model="ekobook.tag.group">
+            <field name="public_categ_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.public_categ_accommodation'),
+            ])]"/>
+        </record>
+
+        <record id="tag_group_accommodation_amenities" model="ekobook.tag.group">
+            <field name="public_categ_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.public_categ_accommodation'),
+            ])]"/>
+        </record>
+
+        <record id="tag_group_accommodation_type" model="ekobook.tag.group">
+            <field name="public_categ_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.public_categ_accommodation'),
+            ])]"/>
+        </record>
+
+        <record id="tag_group_accommodation_guests" model="ekobook.tag.group">
+            <field name="public_categ_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.public_categ_accommodation'),
+            ])]"/>
+        </record>
+
+        <!-- Gastronomia tags → Gastronomia -->
+        <record id="tag_group_gastronomy" model="ekobook.tag.group">
+            <field name="public_categ_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.public_categ_gastronomy'),
+            ])]"/>
+        </record>
+
+        <record id="tag_group_gastronomy_offer" model="ekobook.tag.group">
+            <field name="public_categ_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.public_categ_gastronomy'),
+            ])]"/>
+        </record>
+
+        <!-- Aktywnosci tags → Aktywnosci -->
+        <record id="tag_group_activities" model="ekobook.tag.group">
+            <field name="public_categ_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.public_categ_activities'),
+            ])]"/>
+        </record>
+
+        <record id="tag_group_activities_level" model="ekobook.tag.group">
+            <field name="public_categ_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.public_categ_activities'),
+            ])]"/>
+        </record>
+
+        <record id="tag_group_activities_location" model="ekobook.tag.group">
+            <field name="public_categ_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.public_categ_activities'),
+            ])]"/>
+        </record>
+
+        <!-- Sailing, Rental, SPA, Guide, Entertainment -->
+        <record id="tag_group_sailing" model="ekobook.tag.group">
+            <field name="public_categ_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.public_categ_activities'),
+            ])]"/>
+        </record>
+
+        <record id="tag_group_rental" model="ekobook.tag.group">
+            <field name="public_categ_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.public_categ_equipment'),
+            ])]"/>
+        </record>
+
+        <record id="tag_group_spa" model="ekobook.tag.group">
+            <field name="public_categ_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.public_categ_activities'),
+            ])]"/>
+        </record>
+
+        <record id="tag_group_tourguide" model="ekobook.tag.group">
+            <field name="public_categ_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.public_categ_activities'),
+            ])]"/>
+        </record>
+
+        <record id="tag_group_entertainment" model="ekobook.tag.group">
+            <field name="public_categ_ids" eval="[(6, 0, [
+                ref('ekosystem_ecommerce_base.public_categ_activities'),
+            ])]"/>
+        </record>
+
+        <!-- Oferty specjalne — GLOBAL (no public_categ_ids = visible in ALL categories) -->
+        <!-- No record needed — empty public_categ_ids is the default -->
+
+    </data>
+</odoo>
