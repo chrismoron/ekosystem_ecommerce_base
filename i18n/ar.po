@@ -1,0 +1,981 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ekosystem_ecommerce_base
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20260421\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-11 19:12+0000\n"
+"PO-Revision-Date: 2026-06-11 19:12+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_1h
+msgid "1 godzina"
+msgstr "ساعة واحدة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_1person
+msgid "1 osoba"
+msgstr "شخص واحد"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_2h
+msgid "2 godziny"
+msgstr "ساعتان"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_2persons
+msgid "2 osoby"
+msgstr "شخصان"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_3h
+msgid "3 godziny"
+msgstr "3 ساعات"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_3_4persons
+msgid "3-4 osoby"
+msgstr "3–4 أشخاص"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_5_8persons
+msgid "5-8 osób"
+msgstr "5–8 أشخاص"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,name:ekosystem_ecommerce_base.attr_group_activities
+msgid "Aktywności i sport"
+msgstr "الأنشطة والرياضة"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_activities_level
+msgid "Aktywności — poziom trudności"
+msgstr "الأنشطة — مستوى الصعوبة"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_activities
+msgid "Aktywności — rodzaj sportu"
+msgstr "الأنشطة — نوع الرياضة"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_activities_location
+msgid "Aktywności — teren i sezon"
+msgstr "الأنشطة — الموقع والموسم"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_all_inclusive
+msgid "All inclusive"
+msgstr "شامل الكل"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_kitchen
+msgid "Aneks kuchenny"
+msgstr "ركن المطبخ"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_apartment
+msgid "Apartament"
+msgstr "شقة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_aromatherapy
+msgid "Aromaterapia"
+msgstr "العلاج بالروائح"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,description:ekosystem_ecommerce_base.attr_group_activities
+msgid ""
+"Atrybuty dla aktywności: spływy kajakowe, szkoły jazdy konnej, sporty wodne."
+" Obejmuje czas trwania, poziom trudności i liczę osób."
+msgstr ""
+"سمات الأنشطة: جولات الكياك، مدارس ركوب الخيل، الرياضات المائية."
+" يشمل المدة، ومستوى الصعوبة، وعدد المشاركين."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,description:ekosystem_ecommerce_base.attr_group_accommodation
+msgid ""
+"Atrybuty dla noclegów: agroturystyka, hotele, B&B, glamping. Obejmuje rodzaj"
+" łóżek, standard, wyżywienie i widok."
+msgstr ""
+"سمات الإقامة: السياحة الريفية، الفنادق، B&B، الغلامبينج. يشمل نوع"
+" الأسرة، والمستوى، ونظام الإقامة، والإطلالة."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,description:ekosystem_ecommerce_base.attr_group_sailing
+msgid ""
+"Atrybuty dla rejsów i czarterów: sloty wielodniowe, liczba osób na "
+"pokładzie, standard. Obejmuje czas trwania, pojemność i sezon."
+msgstr ""
+"سمات الرحلات البحرية والإيجارات: فترات متعددة الأيام، عدد الأشخاص على "
+"متن السفينة، المستوى. يشمل المدة، والطاقة الاستيعابية، والموسم."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,description:ekosystem_ecommerce_base.attr_group_hourly_free
+msgid ""
+"Atrybuty dla usług godzinowych z dowolnym startem: SPA, masaże, "
+"instruktorzy, salony. Klient sam wybiera godzinę i czas trwania."
+msgstr ""
+"سمات الخدمات بالساعة ذات الوقت المرن: السبا، التدليك، "
+"المدربون، الصالونات. يختار العميل الوقت والمدة بنفسه."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,description:ekosystem_ecommerce_base.attr_group_hourly_fixed
+msgid ""
+"Atrybuty dla usług ze stałymi slotami: zajęcia grupowe, przewodnicy, "
+"restauracje. Klient wybiera slot z harmonogramu i czas trwania."
+msgstr ""
+"سمات الخدمات ذات الفترات الثابتة: الدروس الجماعية، المرشدون، "
+"المطاعم. يختار العميل فترة من الجدول الزمني والمدة."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,description:ekosystem_ecommerce_base.attr_group_equipment_rental
+msgid ""
+"Atrybuty dla wypożyczalni: rowery, kajaki, sprzęt turystyczny, pojazdy. "
+"Obejmuje czas trwania, rozmiar i stan sprzętu."
+msgstr ""
+"سمات خدمات الإيجار: الدراجات، الكياك، المعدات السياحية، المركبات. "
+"يشمل المدة، والمقاس، وحالة المعدات."
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_pool
+msgid "Basen"
+msgstr "حمام السباحة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_salt_pool
+msgid "Basen solankowy"
+msgstr "حمام المياه المالحة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_bestseller
+msgid "Bestseller"
+msgstr "الأكثر مبيعاً"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_no_meal
+msgid "Bez wyżywienia"
+msgstr "بدون وجبات"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_bieszczady
+msgid "Bieszczady"
+msgstr "جبال بيشتشادي"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_city_center
+msgid "Blisko centrum"
+msgstr "قريب من المركز"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_full_day
+msgid "Cały dzień"
+msgstr "يوم كامل"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_all_year
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_yearround
+msgid "Cały rok"
+msgstr "طوال العام"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute,name:ekosystem_ecommerce_base.attr_duration
+msgid "Czas trwania"
+msgstr "المدة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_deluxe
+msgid "Deluxe"
+msgstr "ديلوكس"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_groups
+msgid "Dla grup"
+msgstr "للمجموعات"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_everyone
+msgid "Dla każdego"
+msgstr "للجميع"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_couples
+msgid "Dla par"
+msgstr "للأزواج"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_beginner
+msgid "Dla początkujących"
+msgstr "للمبتدئين"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_family
+msgid "Dla rodzin"
+msgstr "للعائلات"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_seniors
+msgid "Dla seniorów"
+msgstr "لكبار السن"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_singles
+msgid "Dla singli"
+msgstr "للعزاب"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_advanced
+msgid "Dla zaawansowanych"
+msgstr "للمتقدمين"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_cottage
+msgid "Domek"
+msgstr "كوخ"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_delivery
+msgid "Dostawa na miejsce"
+msgstr "توصيل إلى الموقع"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_accessible
+msgid "Dostępny dla niepełnosprawnych"
+msgstr "متاح لذوي الاحتياجات الخاصة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_kids_welcome
+msgid "Dzieci mile widziane"
+msgstr "الأطفال مرحب بهم"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_economy
+msgid "Economy"
+msgstr "اقتصادي"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_eco
+msgid "Eko"
+msgstr "صديق للبيئة"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_gastronomy
+msgid "Gastronomia — kuchnia i dieta"
+msgstr "المطاعم — المطبخ والنظام الغذائي"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_gastronomy_offer
+msgid "Gastronomia — oferta"
+msgstr "المطاعم — العروض"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_glamping
+msgid "Glamping"
+msgstr "غلامبينج"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_farm
+msgid "Gospodarstwo agroturystyczne"
+msgstr "مزرعة سياحية"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_bbq
+msgid "Grill / Ognisko"
+msgstr "شواء / نار مخيم"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_group
+msgid "Grupa (9+ osób)"
+msgstr "مجموعة (9 أشخاص أو أكثر)"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_accommodation_guests
+msgid "Grupy docelowe gości dla obiektów noclegowych."
+msgstr "الفئات المستهدفة من الضيوف لمرافق الإقامة."
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_halal
+msgid "Halal"
+msgstr "حلال"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_corporate
+msgid "Imprezy integracyjne"
+msgstr "فعاليات بناء الفريق"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_jacuzzi
+msgid "Jacuzzi"
+msgstr "جاكوزي"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_horse_riding
+msgid "Jazda konna"
+msgstr "ركوب الخيل"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_autumn
+msgid "Jesień"
+msgstr "الخريف"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_kayak
+msgid "Kajakarstwo"
+msgstr "رياضة الكياك"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_ac
+msgid "Klimatyzacja"
+msgstr "تكييف الهواء"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_fireplace
+msgid "Kominek"
+msgstr "مدفأة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_regional_cuisine
+msgid "Kuchnia regionalna"
+msgstr "المطبخ الإقليمي"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_cultural
+msgid "Kultura"
+msgstr "الثقافة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_size_l
+msgid "L / Duży"
+msgstr "L / كبير"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_last_minute
+msgid "Last minute"
+msgstr "اللحظة الأخيرة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_summer
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_summer
+msgid "Lato"
+msgstr "الصيف"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute,name:ekosystem_ecommerce_base.attr_people
+msgid "Liczba osób"
+msgstr "عدد الأشخاص"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_activities_location
+msgid "Lokalizacja i pora roku aktywności."
+msgstr "الموقع الجغرافي وموسم الأنشطة."
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_local_producer
+msgid "Lokalny producent"
+msgstr "منتج محلي"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_luxury
+msgid "Luksus"
+msgstr "فاخر"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_size_m
+msgid "M / Średni"
+msgstr "M / متوسط"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_massage
+msgid "Masaż"
+msgstr "تدليك"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_mazury
+msgid "Mazury"
+msgstr "بحيرات مازوري"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_countryside
+msgid "Na wsi"
+msgstr "في الريف"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_lakeside
+msgid "Nad jeziorem"
+msgstr "على شاطئ البحيرة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_seaside
+msgid "Nad morzem"
+msgstr "على شاطئ البحر"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_river
+msgid "Nad rzeką"
+msgstr "على ضفة النهر"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_tent
+msgid "Namiot"
+msgstr "خيمة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_skiing
+msgid "Narty"
+msgstr "التزلج على الجليد"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,name:ekosystem_ecommerce_base.attr_group_accommodation
+msgid "Noclegi i komfort"
+msgstr "الإقامة والراحة"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_accommodation_guests
+msgid "Noclegi — dla kogo"
+msgstr "الإقامة — لمن"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_accommodation
+msgid "Noclegi — lokalizacja i otoczenie"
+msgstr "الإقامة — الموقع والمحيط"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_accommodation_type
+msgid "Noclegi — typ zakwaterowania"
+msgstr "الإقامة — نوع السكن"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_accommodation_amenities
+msgid "Noclegi — udogodnienia"
+msgstr "الإقامة — المرافق والخدمات"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_new
+msgid "Nowość"
+msgstr "جديد"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_special_offers
+msgid "Oferty specjalne"
+msgstr "العروض الخاصة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_organic
+msgid "Organiczne"
+msgstr "عضوي"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_parking
+msgid "Parking"
+msgstr "موقف السيارات"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_guesthouse
+msgid "Pensjonat"
+msgstr "بيت ضيافة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_full_board
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_fullboard
+msgid "Pełne wyżywienie"
+msgstr "إقامة كاملة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_hiking
+msgid "Piesze wycieczki"
+msgstr "المشي السياحي"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute,name:ekosystem_ecommerce_base.attr_difficulty
+msgid "Poziom trudności"
+msgstr "مستوى الصعوبة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_own_farm
+msgid "Produkty z własnego gospodarstwa"
+msgstr "منتجات من المزرعة الخاصة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_promotion
+msgid "Promocja"
+msgstr "عرض ترويجي"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_tourguide
+msgid "Przewodnik turystyczny"
+msgstr "مرشد سياحي"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_guide_included
+msgid "Przewodnik w cenie"
+msgstr "المرشد مشمول بالسعر"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_adventure
+msgid "Przygoda"
+msgstr "مغامرة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_pet_friendly
+msgid "Przyjazny zwierzętom"
+msgstr "يرحب بالحيوانات الأليفة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_half_day
+msgid "Pół dnia (4h)"
+msgstr "نصف يوم (4 ساعات)"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_halfboard
+msgid "Półpensjonat"
+msgstr "نصف إقامة"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,name:ekosystem_ecommerce_base.attr_group_sailing
+msgid "Rejsy i żeglarstwo"
+msgstr "الرحلات البحرية والإبحار"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_recommended
+msgid "Rekomendowane"
+msgstr "موصى به"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_relaxation
+msgid "Relaks"
+msgstr "الاسترخاء"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_gastronomy
+msgid "Rodzaj kuchni i diety w lokalach gastronomicznych."
+msgstr "نوع المطبخ والنظام الغذائي في المطاعم."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_accommodation_type
+msgid "Rodzaj obiektu lub miejsca noclegowego."
+msgstr "نوع المنشأة أو مكان الإقامة."
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute,name:ekosystem_ecommerce_base.attr_bed_type
+msgid "Rodzaj łóżek"
+msgstr "نوع الأسرة"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_activities
+msgid "Rodzaje aktywności i sportów oferowanych klientom."
+msgstr "أنواع الأنشطة والرياضات المقدمة للعملاء."
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_bike
+msgid "Rowerowy"
+msgstr "ركوب الدراجات"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute,name:ekosystem_ecommerce_base.attr_vehicle_size
+msgid "Rozmiar"
+msgstr "الحجم"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_entertainment
+msgid "Rozrywka i atrakcje"
+msgstr "الترفيه والمعالم السياحية"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_spa_rituals
+msgid "Rytuały SPA"
+msgstr "طقوس السبا"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_spa
+msgid "SPA i wellness — zabiegi"
+msgstr "السبا والعافية — العلاجات"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_sauna
+msgid "Sauna"
+msgstr "ساونا"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute,name:ekosystem_ecommerce_base.attr_season
+msgid "Sezon"
+msgstr "الموسم"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_seasonal
+msgid "Sezonowy"
+msgstr "موسمي"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_watersports
+msgid "Sporty wodne"
+msgstr "الرياضات المائية"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_equipment_new
+msgid "Sprzęt nowy"
+msgstr "معدات جديدة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute,name:ekosystem_ecommerce_base.attr_equipment_condition
+msgid "Stan sprzętu"
+msgstr "حالة المعدات"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute,name:ekosystem_ecommerce_base.attr_standard
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_standard
+msgid "Standard"
+msgstr "قياسي"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_suite
+msgid "Suite / Apartament"
+msgstr "جناح / شقة فندقية"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_superior
+msgid "Superior"
+msgstr "سوبيريور"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_entertainment
+msgid "Tagi dla atrakcji, rozrywki i wydarzeń turystycznych."
+msgstr "وسوم المعالم السياحية والترفيه والفعاليات."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_sailing
+msgid "Tagi dla czarterów i rejsów żeglarskich."
+msgstr "وسوم إيجار القوارب والرحلات الإبحارية."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_spa
+msgid "Tagi dla salonów SPA, wellness i masażu."
+msgstr "وسوم مراكز السبا والعافية والتدليك."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_tourguide
+msgid "Tagi dla usług przewodnickich i wycieczek z przewodnikiem."
+msgstr "وسوم خدمات الإرشاد السياحي والجولات المصحوبة بمرشد."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_rental
+msgid "Tagi dla wypożyczalni sprzętu turystycznego i sportowego."
+msgstr "وسوم تأجير المعدات السياحية والرياضية."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_accommodation
+msgid "Tagi lokalizacyjne dla obiektów noclegowych."
+msgstr "وسوم الموقع الجغرافي لمنشآت الإقامة."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_special_offers
+msgid "Tagi promocyjne i wyróżnienia ofert widoczne w e-commerce."
+msgstr "وسوم ترويجية وإبرازات العروض المرئية في التجارة الإلكترونية."
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_terrace
+msgid "Taras / Balkon"
+msgstr "تراس / شرفة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_tatry
+msgid "Tatry"
+msgstr "جبال تاترا"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_week
+msgid "Tydzień (7 nocy)"
+msgstr "أسبوع (7 ليالٍ)"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_insurance_included
+msgid "Ubezpieczenie w cenie"
+msgstr "التأمين مشمول بالسعر"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_accommodation_amenities
+msgid "Udogodnienia i wyposażenie obiektów noclegowych."
+msgstr "مرافق وتجهيزات منشآت الإقامة."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,name:ekosystem_ecommerce_base.attr_group_hourly_free
+msgid "Usługi godzinowe (dowolny start)"
+msgstr "خدمات بالساعة (وقت مرن)"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,name:ekosystem_ecommerce_base.attr_group_hourly_fixed
+msgid "Usługi godzinowe (stały harmonogram)"
+msgstr "خدمات بالساعة (جدول ثابت)"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_vegan
+msgid "Vegan"
+msgstr "نباتي صرف"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_gift_voucher
+msgid "Voucher prezentowy"
+msgstr "قسيمة هدية"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_mountains
+msgid "W górach"
+msgstr "في الجبال"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_forest
+msgid "W lesie"
+msgstr "في الغابة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_weekend
+msgid "Weekend (2 noce)"
+msgstr "عطلة نهاية الأسبوع (ليلتان)"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_vegetarian
+msgid "Wegetariańskie"
+msgstr "نباتي"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_wifi
+msgid "WiFi"
+msgstr "واي فاي"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute,name:ekosystem_ecommerce_base.attr_view
+msgid "Widok"
+msgstr "الإطلالة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_windsurfing
+msgid "Windsurfing"
+msgstr "ركوب الأمواج الشراعي"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_spring
+msgid "Wiosna"
+msgstr "الربيع"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_spring_autumn
+msgid "Wiosna / Jesień"
+msgstr "الربيع / الخريف"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_climbing
+msgid "Wspinaczka"
+msgstr "تسلق الجبال"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_activities_level
+msgid "Wymagany poziom sprawności lub doświadczenia."
+msgstr "مستوى اللياقة أو الخبرة المطلوب."
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_exclusive
+msgid "Wynajem na wyłączność"
+msgstr "إيجار حصري"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,name:ekosystem_ecommerce_base.attr_group_equipment_rental
+msgid "Wypożyczalnia sprzętu"
+msgstr "تأجير المعدات"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_rental
+msgid "Wypożyczalnia — sprzęt i usługi"
+msgstr "التأجير — المعدات والخدمات"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute,name:ekosystem_ecommerce_base.attr_meal
+msgid "Wyżywienie"
+msgstr "نظام الوجبات"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_fishing
+msgid "Wędkarstwo"
+msgstr "الصيد بالسنارة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_size_xl
+msgid "XL / Bardzo duży"
+msgstr "XL / كبير جداً"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_size_xs
+msgid "XS / Mały"
+msgstr "XS / صغير"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_hard
+msgid "Zaawansowany"
+msgstr "متقدم"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_gastronomy_offer
+msgid "Zakres i typ oferty gastronomicznej."
+msgstr "نطاق وطبيعة العرض الغذائي."
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_winter
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_winter
+msgid "Zima"
+msgstr "الشتاء"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_easy
+msgid "Łatwy - dla każdego"
+msgstr "سهل — مناسب للجميع"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_breakfast
+msgid "Śniadanie"
+msgstr "الإفطار"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_half_board
+msgid "Śniadanie + obiadokolacja"
+msgstr "الإفطار + العشاء"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_breakfast_included
+msgid "Śniadanie wliczone"
+msgstr "الإفطار مشمول"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_medium
+msgid "Średni"
+msgstr "متوسط"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_intermediate
+msgid "Średni poziom"
+msgstr "مستوى متوسط"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_sailing
+msgid "Żeglarstwo"
+msgstr "الإبحار"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_sailing
+msgid "Żeglarstwo — typ i sezon"
+msgstr "الإبحار — النوع والموسم"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_view_mountain
+msgid "⛰ Na góry"
+msgstr "⛰ إطلالة على الجبال"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_eq_new
+msgid "✨ Nowy (bieżący rok)"
+msgstr "✨ جديد (العام الحالي)"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_view_sea
+msgid "🌊 Na morze"
+msgstr "🌊 إطلالة على البحر"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_view_forest
+msgid "🌲 Na las"
+msgstr "🌲 إطلالة على الغابة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_view_garden
+msgid "🌿 Na ogród"
+msgstr "🌿 إطلالة على الحديقة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_bed_crib
+msgid "🍼 Dziecięce (łóżeczko)"
+msgstr "🍼 سرير أطفال"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.public.category,name:ekosystem_ecommerce_base.public_categ_gastronomy
+msgid "🍽️ Gastronomia"
+msgstr "🍽️ المطاعم والطعام"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.public.category,name:ekosystem_ecommerce_base.public_categ_packages
+msgid "🎁 Pakiety i promocje"
+msgstr "🎁 الباقات والعروض"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.public.category,name:ekosystem_ecommerce_base.public_categ_activities
+msgid "🎯 Aktywności"
+msgstr "🎯 الأنشطة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.public.category,name:ekosystem_ecommerce_base.public_categ_equipment
+msgid "🎿 Wypożyczalnia sprzętu"
+msgstr "🎿 تأجير المعدات"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_view_city
+msgid "🏙 Na miasto"
+msgstr "🏙 إطلالة على المدينة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_view_lake
+msgid "🏞 Na jezioro / rzekę"
+msgstr "🏞 إطلالة على البحيرة / النهر"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.public.category,name:ekosystem_ecommerce_base.public_categ_accommodation
+msgid "🏨 Noclegi"
+msgstr "🏨 الإقامة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_eq_good
+msgid "👍 Dobry"
+msgstr "👍 حالة جيدة"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_bed_king
+msgid "👑 Małżeńskie (King)"
+msgstr "👑 كنج (مزدوج كبير)"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_eq_used
+msgid "🔧 Używany"
+msgstr "🔧 مستعمل"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.public.category,name:ekosystem_ecommerce_base.public_categ_transport
+msgid "🚗 Transport"
+msgstr "🚗 المواصلات"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_bed_sofa
+msgid "🛋 Rozkładane (sofa)"
+msgstr "🛋 أريكة سرير"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_bed_single
+msgid "🛏 Pojedyncze"
+msgstr "🛏 سرير فردي"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_bed_double
+msgid "🛏🛏 Podwójne"
+msgstr "🛏🛏 سرير مزدوج"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_bed_triple
+msgid "🛏🛏🛏 Potrójne"
+msgstr "🛏🛏🛏 سرير ثلاثي"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_bed_bunk
+msgid "🪜 Piętrowe"
+msgstr "🪜 سرير بطابقين"

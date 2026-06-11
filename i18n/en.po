@@ -1,0 +1,910 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ekosystem_ecommerce_base
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20260421\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-11 19:12+0000\n"
+"PO-Revision-Date: 2026-06-11 19:12+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_1h
+msgid "1 godzina"
+msgstr "1 hour"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_1person
+msgid "1 osoba"
+msgstr "1 person"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_2h
+msgid "2 godziny"
+msgstr "2 hours"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_2persons
+msgid "2 osoby"
+msgstr "2 persons"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_3h
+msgid "3 godziny"
+msgstr "3 hours"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_3_4persons
+msgid "3-4 osoby"
+msgstr "3-4 persons"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_5_8persons
+msgid "5-8 osób"
+msgstr "5-8 persons"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,name:ekosystem_ecommerce_base.attr_group_activities
+msgid "Aktywności i sport"
+msgstr "Activities & Sport"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_activities_level
+msgid "Aktywności — poziom trudności"
+msgstr "Activities — Difficulty Level"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_activities
+msgid "Aktywności — rodzaj sportu"
+msgstr "Activities — Sport Type"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_activities_location
+msgid "Aktywności — teren i sezon"
+msgstr "Activities — Location & Season"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_kitchen
+msgid "Aneks kuchenny"
+msgstr "Kitchenette"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_apartment
+msgid "Apartament"
+msgstr "Apartment"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_aromatherapy
+msgid "Aromaterapia"
+msgstr "Aromatherapy"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,description:ekosystem_ecommerce_base.attr_group_activities
+msgid ""
+"Atrybuty dla aktywności: spływy kajakowe, szkoły jazdy konnej, sporty wodne."
+" Obejmuje czas trwania, poziom trudności i liczę osób."
+msgstr ""
+"Attributes for activities: kayaking, horse-riding schools, water sports."
+" Covers duration, difficulty level and number of participants."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,description:ekosystem_ecommerce_base.attr_group_accommodation
+msgid ""
+"Atrybuty dla noclegów: agroturystyka, hotele, B&B, glamping. Obejmuje rodzaj"
+" łóżek, standard, wyżywienie i widok."
+msgstr ""
+"Attributes for accommodation: agritourism, hotels, B&B, glamping. Covers bed"
+" type, standard, board type and view."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,description:ekosystem_ecommerce_base.attr_group_sailing
+msgid ""
+"Atrybuty dla rejsów i czarterów: sloty wielodniowe, liczba osób na "
+"pokładzie, standard. Obejmuje czas trwania, pojemność i sezon."
+msgstr ""
+"Attributes for cruises and charters: multi-day slots, number of persons on "
+"board, standard. Covers duration, capacity and season."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,description:ekosystem_ecommerce_base.attr_group_hourly_free
+msgid ""
+"Atrybuty dla usług godzinowych z dowolnym startem: SPA, masaże, "
+"instruktorzy, salony. Klient sam wybiera godzinę i czas trwania."
+msgstr ""
+"Attributes for hourly services with flexible start times: spa, massages, "
+"instructors, salons. The customer selects their own time and duration."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,description:ekosystem_ecommerce_base.attr_group_hourly_fixed
+msgid ""
+"Atrybuty dla usług ze stałymi slotami: zajęcia grupowe, przewodnicy, "
+"restauracje. Klient wybiera slot z harmonogramu i czas trwania."
+msgstr ""
+"Attributes for services with fixed slots: group classes, guides, "
+"restaurants. The customer picks a slot from the schedule and duration."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,description:ekosystem_ecommerce_base.attr_group_equipment_rental
+msgid ""
+"Atrybuty dla wypożyczalni: rowery, kajaki, sprzęt turystyczny, pojazdy. "
+"Obejmuje czas trwania, rozmiar i stan sprzętu."
+msgstr ""
+"Attributes for rentals: bicycles, kayaks, tourist equipment, vehicles. "
+"Covers duration, size and equipment condition."
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_pool
+msgid "Basen"
+msgstr "Swimming Pool"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_salt_pool
+msgid "Basen solankowy"
+msgstr "Salt-Water Pool"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_no_meal
+msgid "Bez wyżywienia"
+msgstr "No Meals"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_bieszczady
+msgid "Bieszczady"
+msgstr "Bieszczady Mountains"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_city_center
+msgid "Blisko centrum"
+msgstr "Near City Centre"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_full_day
+msgid "Cały dzień"
+msgstr "Full Day"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_all_year
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_yearround
+msgid "Cały rok"
+msgstr "Year-Round"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute,name:ekosystem_ecommerce_base.attr_duration
+msgid "Czas trwania"
+msgstr "Duration"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_groups
+msgid "Dla grup"
+msgstr "For Groups"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_everyone
+msgid "Dla każdego"
+msgstr "For Everyone"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_couples
+msgid "Dla par"
+msgstr "For Couples"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_beginner
+msgid "Dla początkujących"
+msgstr "For Beginners"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_family
+msgid "Dla rodzin"
+msgstr "For Families"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_seniors
+msgid "Dla seniorów"
+msgstr "For Seniors"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_singles
+msgid "Dla singli"
+msgstr "For Singles"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_advanced
+msgid "Dla zaawansowanych"
+msgstr "For Advanced"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_cottage
+msgid "Domek"
+msgstr "Cottage"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_delivery
+msgid "Dostawa na miejsce"
+msgstr "On-Site Delivery"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_accessible
+msgid "Dostępny dla niepełnosprawnych"
+msgstr "Accessible for Disabled"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_kids_welcome
+msgid "Dzieci mile widziane"
+msgstr "Children Welcome"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_eco
+msgid "Eko"
+msgstr "Eco"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_gastronomy
+msgid "Gastronomia — kuchnia i dieta"
+msgstr "Gastronomy — Cuisine & Diet"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_gastronomy_offer
+msgid "Gastronomia — oferta"
+msgstr "Gastronomy — Offering"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_farm
+msgid "Gospodarstwo agroturystyczne"
+msgstr "Agritourism Farm"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_bbq
+msgid "Grill / Ognisko"
+msgstr "BBQ / Campfire"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_group
+msgid "Grupa (9+ osób)"
+msgstr "Group (9+ persons)"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_accommodation_guests
+msgid "Grupy docelowe gości dla obiektów noclegowych."
+msgstr "Target guest groups for accommodation properties."
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_corporate
+msgid "Imprezy integracyjne"
+msgstr "Corporate Team Events"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_horse_riding
+msgid "Jazda konna"
+msgstr "Horse Riding"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_autumn
+msgid "Jesień"
+msgstr "Autumn"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_kayak
+msgid "Kajakarstwo"
+msgstr "Kayaking"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_ac
+msgid "Klimatyzacja"
+msgstr "Air Conditioning"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_fireplace
+msgid "Kominek"
+msgstr "Fireplace"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_regional_cuisine
+msgid "Kuchnia regionalna"
+msgstr "Regional Cuisine"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_cultural
+msgid "Kultura"
+msgstr "Culture"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_size_l
+msgid "L / Duży"
+msgstr "L / Large"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_summer
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_summer
+msgid "Lato"
+msgstr "Summer"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute,name:ekosystem_ecommerce_base.attr_people
+msgid "Liczba osób"
+msgstr "Number of Persons"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_activities_location
+msgid "Lokalizacja i pora roku aktywności."
+msgstr "Location and season for activities."
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_local_producer
+msgid "Lokalny producent"
+msgstr "Local Producer"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_luxury
+msgid "Luksus"
+msgstr "Luxury"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_size_m
+msgid "M / Średni"
+msgstr "M / Medium"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_massage
+msgid "Masaż"
+msgstr "Massage"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_mazury
+msgid "Mazury"
+msgstr "Mazury Lakes"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_countryside
+msgid "Na wsi"
+msgstr "In the Countryside"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_lakeside
+msgid "Nad jeziorem"
+msgstr "Lakeside"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_seaside
+msgid "Nad morzem"
+msgstr "Seaside"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_river
+msgid "Nad rzeką"
+msgstr "Riverside"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_tent
+msgid "Namiot"
+msgstr "Tent"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_skiing
+msgid "Narty"
+msgstr "Skiing"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,name:ekosystem_ecommerce_base.attr_group_accommodation
+msgid "Noclegi i komfort"
+msgstr "Accommodation & Comfort"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_accommodation_guests
+msgid "Noclegi — dla kogo"
+msgstr "Accommodation — For Whom"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_accommodation
+msgid "Noclegi — lokalizacja i otoczenie"
+msgstr "Accommodation — Location & Surroundings"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_accommodation_type
+msgid "Noclegi — typ zakwaterowania"
+msgstr "Accommodation — Type"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_accommodation_amenities
+msgid "Noclegi — udogodnienia"
+msgstr "Accommodation — Amenities"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_new
+msgid "Nowość"
+msgstr "New"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_special_offers
+msgid "Oferty specjalne"
+msgstr "Special Offers"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_organic
+msgid "Organiczne"
+msgstr "Organic"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_guesthouse
+msgid "Pensjonat"
+msgstr "Guesthouse"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_full_board
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_fullboard
+msgid "Pełne wyżywienie"
+msgstr "Full Board"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_hiking
+msgid "Piesze wycieczki"
+msgstr "Hiking"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute,name:ekosystem_ecommerce_base.attr_difficulty
+msgid "Poziom trudności"
+msgstr "Difficulty Level"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_own_farm
+msgid "Produkty z własnego gospodarstwa"
+msgstr "Own-Farm Produce"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_promotion
+msgid "Promocja"
+msgstr "Promotion"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_tourguide
+msgid "Przewodnik turystyczny"
+msgstr "Tourist Guide"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_guide_included
+msgid "Przewodnik w cenie"
+msgstr "Guide Included"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_adventure
+msgid "Przygoda"
+msgstr "Adventure"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_pet_friendly
+msgid "Przyjazny zwierzętom"
+msgstr "Pet Friendly"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_half_day
+msgid "Pół dnia (4h)"
+msgstr "Half Day (4h)"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_halfboard
+msgid "Półpensjonat"
+msgstr "Half Board"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,name:ekosystem_ecommerce_base.attr_group_sailing
+msgid "Rejsy i żeglarstwo"
+msgstr "Cruises & Sailing"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_recommended
+msgid "Rekomendowane"
+msgstr "Recommended"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_relaxation
+msgid "Relaks"
+msgstr "Relaxation"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_gastronomy
+msgid "Rodzaj kuchni i diety w lokalach gastronomicznych."
+msgstr "Cuisine type and dietary options in gastronomy venues."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_accommodation_type
+msgid "Rodzaj obiektu lub miejsca noclegowego."
+msgstr "Type of accommodation property or venue."
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute,name:ekosystem_ecommerce_base.attr_bed_type
+msgid "Rodzaj łóżek"
+msgstr "Bed Type"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_activities
+msgid "Rodzaje aktywności i sportów oferowanych klientom."
+msgstr "Types of activities and sports offered to customers."
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_bike
+msgid "Rowerowy"
+msgstr "Cycling"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute,name:ekosystem_ecommerce_base.attr_vehicle_size
+msgid "Rozmiar"
+msgstr "Size"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_entertainment
+msgid "Rozrywka i atrakcje"
+msgstr "Entertainment & Attractions"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_spa_rituals
+msgid "Rytuały SPA"
+msgstr "SPA Rituals"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_spa
+msgid "SPA i wellness — zabiegi"
+msgstr "SPA & Wellness — Treatments"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute,name:ekosystem_ecommerce_base.attr_season
+msgid "Sezon"
+msgstr "Season"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_seasonal
+msgid "Sezonowy"
+msgstr "Seasonal"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_watersports
+msgid "Sporty wodne"
+msgstr "Water Sports"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_equipment_new
+msgid "Sprzęt nowy"
+msgstr "New Equipment"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute,name:ekosystem_ecommerce_base.attr_equipment_condition
+msgid "Stan sprzętu"
+msgstr "Equipment Condition"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_suite
+msgid "Suite / Apartament"
+msgstr "Suite / Apartment"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_entertainment
+msgid "Tagi dla atrakcji, rozrywki i wydarzeń turystycznych."
+msgstr "Tags for tourist attractions, entertainment and events."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_sailing
+msgid "Tagi dla czarterów i rejsów żeglarskich."
+msgstr "Tags for charters and sailing cruises."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_spa
+msgid "Tagi dla salonów SPA, wellness i masażu."
+msgstr "Tags for SPA, wellness and massage salons."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_tourguide
+msgid "Tagi dla usług przewodnickich i wycieczek z przewodnikiem."
+msgstr "Tags for guiding services and guided tours."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_rental
+msgid "Tagi dla wypożyczalni sprzętu turystycznego i sportowego."
+msgstr "Tags for tourist and sports equipment hire."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_accommodation
+msgid "Tagi lokalizacyjne dla obiektów noclegowych."
+msgstr "Location tags for accommodation properties."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_special_offers
+msgid "Tagi promocyjne i wyróżnienia ofert widoczne w e-commerce."
+msgstr "Promotional tags and offer highlights visible in e-commerce."
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_terrace
+msgid "Taras / Balkon"
+msgstr "Terrace / Balcony"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_tatry
+msgid "Tatry"
+msgstr "Tatra Mountains"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_week
+msgid "Tydzień (7 nocy)"
+msgstr "Week (7 nights)"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_insurance_included
+msgid "Ubezpieczenie w cenie"
+msgstr "Insurance Included"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_accommodation_amenities
+msgid "Udogodnienia i wyposażenie obiektów noclegowych."
+msgstr "Amenities and facilities of accommodation properties."
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,name:ekosystem_ecommerce_base.attr_group_hourly_free
+msgid "Usługi godzinowe (dowolny start)"
+msgstr "Hourly Services (Flexible Start)"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,name:ekosystem_ecommerce_base.attr_group_hourly_fixed
+msgid "Usługi godzinowe (stały harmonogram)"
+msgstr "Hourly Services (Fixed Schedule)"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_gift_voucher
+msgid "Voucher prezentowy"
+msgstr "Gift Voucher"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_mountains
+msgid "W górach"
+msgstr "In the Mountains"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_forest
+msgid "W lesie"
+msgstr "In the Forest"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_weekend
+msgid "Weekend (2 noce)"
+msgstr "Weekend (2 nights)"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_vegetarian
+msgid "Wegetariańskie"
+msgstr "Vegetarian"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute,name:ekosystem_ecommerce_base.attr_view
+msgid "Widok"
+msgstr "View"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_windsurfing
+msgid "Windsurfing"
+msgstr "Windsurfing"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_spring
+msgid "Wiosna"
+msgstr "Spring"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_spring_autumn
+msgid "Wiosna / Jesień"
+msgstr "Spring / Autumn"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_climbing
+msgid "Wspinaczka"
+msgstr "Climbing"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_activities_level
+msgid "Wymagany poziom sprawności lub doświadczenia."
+msgstr "Required fitness or experience level."
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_exclusive
+msgid "Wynajem na wyłączność"
+msgstr "Exclusive Hire"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.attribute.group,name:ekosystem_ecommerce_base.attr_group_equipment_rental
+msgid "Wypożyczalnia sprzętu"
+msgstr "Equipment Hire"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_rental
+msgid "Wypożyczalnia — sprzęt i usługi"
+msgstr "Hire — Equipment & Services"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute,name:ekosystem_ecommerce_base.attr_meal
+msgid "Wyżywienie"
+msgstr "Board / Meals"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_fishing
+msgid "Wędkarstwo"
+msgstr "Fishing"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_size_xl
+msgid "XL / Bardzo duży"
+msgstr "XL / Extra Large"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_size_xs
+msgid "XS / Mały"
+msgstr "XS / Small"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_hard
+msgid "Zaawansowany"
+msgstr "Advanced"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,description:ekosystem_ecommerce_base.tag_group_gastronomy_offer
+msgid "Zakres i typ oferty gastronomicznej."
+msgstr "Scope and type of gastronomy offering."
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_winter
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_winter
+msgid "Zima"
+msgstr "Winter"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_easy
+msgid "Łatwy - dla każdego"
+msgstr "Easy — Suitable for Everyone"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_breakfast
+msgid "Śniadanie"
+msgstr "Breakfast"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_half_board
+msgid "Śniadanie + obiadokolacja"
+msgstr "Breakfast + Dinner"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_breakfast_included
+msgid "Śniadanie wliczone"
+msgstr "Breakfast Included"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_medium
+msgid "Średni"
+msgstr "Intermediate"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_intermediate
+msgid "Średni poziom"
+msgstr "Intermediate Level"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.tag,name:ekosystem_ecommerce_base.tag_sailing
+msgid "Żeglarstwo"
+msgstr "Sailing"
+
+#. module: ekosystem_ecommerce_base
+#: model:ekobook.tag.group,name:ekosystem_ecommerce_base.tag_group_sailing
+msgid "Żeglarstwo — typ i sezon"
+msgstr "Sailing — Type & Season"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_view_mountain
+msgid "⛰ Na góry"
+msgstr "⛰ Mountain View"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_eq_new
+msgid "✨ Nowy (bieżący rok)"
+msgstr "✨ New (current year)"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_view_sea
+msgid "🌊 Na morze"
+msgstr "🌊 Sea View"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_view_forest
+msgid "🌲 Na las"
+msgstr "🌲 Forest View"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_view_garden
+msgid "🌿 Na ogród"
+msgstr "🌿 Garden View"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_bed_crib
+msgid "🍼 Dziecięce (łóżeczko)"
+msgstr "🍼 Children's Cot"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.public.category,name:ekosystem_ecommerce_base.public_categ_gastronomy
+msgid "🍽️ Gastronomia"
+msgstr "🍽️ Gastronomy"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.public.category,name:ekosystem_ecommerce_base.public_categ_packages
+msgid "🎁 Pakiety i promocje"
+msgstr "🎁 Packages & Promotions"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.public.category,name:ekosystem_ecommerce_base.public_categ_activities
+msgid "🎯 Aktywności"
+msgstr "🎯 Activities"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.public.category,name:ekosystem_ecommerce_base.public_categ_equipment
+msgid "🎿 Wypożyczalnia sprzętu"
+msgstr "🎿 Equipment Hire"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_view_city
+msgid "🏙 Na miasto"
+msgstr "🏙 City View"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_view_lake
+msgid "🏞 Na jezioro / rzekę"
+msgstr "🏞 Lake / River View"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.public.category,name:ekosystem_ecommerce_base.public_categ_accommodation
+msgid "🏨 Noclegi"
+msgstr "🏨 Accommodation"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_eq_good
+msgid "👍 Dobry"
+msgstr "👍 Good Condition"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_bed_king
+msgid "👑 Małżeńskie (King)"
+msgstr "👑 King (Double)"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_eq_used
+msgid "🔧 Używany"
+msgstr "🔧 Used"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.public.category,name:ekosystem_ecommerce_base.public_categ_transport
+msgid "🚗 Transport"
+msgstr "🚗 Transport"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_bed_sofa
+msgid "🛋 Rozkładane (sofa)"
+msgstr "🛋 Sofa Bed"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_bed_single
+msgid "🛏 Pojedyncze"
+msgstr "🛏 Single"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_bed_double
+msgid "🛏🛏 Podwójne"
+msgstr "🛏🛏 Double"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_bed_triple
+msgid "🛏🛏🛏 Potrójne"
+msgstr "🛏🛏🛏 Triple"
+
+#. module: ekosystem_ecommerce_base
+#: model:product.attribute.value,name:ekosystem_ecommerce_base.attr_val_bed_bunk
+msgid "🪜 Piętrowe"
+msgstr "🪜 Bunk Bed"
